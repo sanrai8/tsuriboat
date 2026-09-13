@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-13T21:56:39.935304+09:00",
+ "generated_at": "2026-09-13T22:10:53.321219+09:00",
  "catches": [
   {
    "id": "c5e601e260c2",
@@ -1167,6 +1167,40 @@
    "model": "claude-haiku-4-5-20251001"
   },
   {
+   "id": "61a635ea6f97",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-09-08",
+   "trip_type": "半夜便",
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "型は良好"
+    },
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "雨",
+   "summary": "ケンサキは数出ず。アオリイカが多数で遊べた。",
+   "title": "9/8",
+   "url": "https://www.taikai-web.com/88-report.html#20260908",
+   "published": "2026-09-08T12:00:00+09:00",
+   "extracted_at": "2026-09-13T22:10:46.049946+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
    "id": "df690b4e227e",
    "boat_id": "taimaru",
    "boat_key": "taimaru_second",
@@ -1820,6 +1854,40 @@
    "model": "claude-haiku-4-5-20251001"
   },
   {
+   "id": "fee3398494d6",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-09-02",
+   "trip_type": "半夜便",
+   "methods": [],
+   "species": [
+    {
+     "name": "クロムツ",
+     "min": null,
+     "max": 15,
+     "total": null,
+     "size_note": "55cm・54cm"
+    },
+    {
+     "name": "エビス鯛",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 15,
+   "condition": null,
+   "summary": "クロムツ便。入れ食いではないが多い方で15匹程。型がいい。",
+   "title": "9/2",
+   "url": "https://www.taikai-web.com/88-report.html#20260902",
+   "published": "2026-09-02T12:00:00+09:00",
+   "extracted_at": "2026-09-13T22:10:48.334144+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
    "id": "31d5e679418b",
    "boat_id": "kazumimaru",
    "boat_key": "kazumimaru",
@@ -1846,6 +1914,35 @@
    "url": "https://ameblo.jp/kazumimaru20151010/entry-12977495187.html",
    "published": "2026-09-02T00:51:29+09:00",
    "extracted_at": "2026-09-13T21:52:10.290340+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "865a94c13d8e",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-09-01",
+   "trip_type": "半夜便",
+   "methods": [
+    "イカメタル"
+   ],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 30,
+   "condition": null,
+   "summary": "形も数も申し分無し。竿頭30パイ越え。皆さん遊んで頂き好調。",
+   "title": "9/1",
+   "url": "https://www.taikai-web.com/88-report.html#20260901",
+   "published": "2026-09-01T12:00:00+09:00",
+   "extracted_at": "2026-09-13T22:10:50.348262+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
@@ -1931,6 +2028,47 @@
    "model": "claude-haiku-4-5-20251001"
   },
   {
+   "id": "f8a7a220b6f8",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-08-30",
+   "trip_type": "半夜便",
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スルメイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "30日は潮が速く小難しい。31日は潮もおさまり良好",
+   "summary": "30日は潮速い流し釣り。31日は潮おさまりケンサキ、アオリ、スルメイカが釣れた",
+   "title": "8/31",
+   "url": "https://www.taikai-web.com/88-report.html#20260831",
+   "published": "2026-08-31T12:00:00+09:00",
+   "extracted_at": "2026-09-13T22:10:53.321152+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
    "id": "d4859dbc25f6",
    "boat_id": "kumomaru",
    "boat_key": "kumomaru",
@@ -1985,6 +2123,7 @@
    "name": "一美丸",
    "area": "敦賀",
    "home": "https://ameblo.jp/kazumimaru20151010/",
+   "link_only": false,
    "sub_boats": []
   },
   {
@@ -1992,6 +2131,7 @@
    "name": "竹宝丸",
    "area": "敦賀",
    "home": "https://ameblo.jp/chikuhoumaru/",
+   "link_only": false,
    "sub_boats": []
   },
   {
@@ -1999,6 +2139,7 @@
    "name": "海生丸",
    "area": "小浜",
    "home": "https://ameblo.jp/kaisei2266/",
+   "link_only": false,
    "sub_boats": []
   },
   {
@@ -2006,6 +2147,7 @@
    "name": "雲丸",
    "area": "小浜（おおい）",
    "home": "https://kumomaru.net/result/",
+   "link_only": false,
    "sub_boats": []
   },
   {
@@ -2013,6 +2155,7 @@
    "name": "豊漁丸",
    "area": "敦賀",
    "home": "http://houryoumaru.blog.fc2.com/",
+   "link_only": false,
    "sub_boats": []
   },
   {
@@ -2020,6 +2163,7 @@
    "name": "泰丸",
    "area": "敦賀",
    "home": "https://www.taimaru.jp/fishingpost",
+   "link_only": false,
    "sub_boats": [
     {
      "id": "taimaru_main",
@@ -2040,27 +2184,31 @@
    "name": "ドリームチェイサー",
    "area": "京都",
    "home": "https://dream-chaser.kyoto.jp/chouka/",
+   "link_only": false,
+   "sub_boats": []
+  },
+  {
+   "id": "taikaimaru",
+   "name": "第八十八大海丸",
+   "area": "小浜",
+   "home": "https://www.taikai-web.com/88-report.html",
+   "link_only": false,
    "sub_boats": []
   },
   {
    "id": "koueimaru",
    "name": "高栄丸",
    "area": "敦賀",
-   "home": null,
+   "home": "https://zekkouchou.com/koueimaru/catch.php",
+   "link_only": true,
    "sub_boats": []
   },
   {
    "id": "syunteimaru",
    "name": "春定丸",
    "area": "敦賀",
-   "home": null,
-   "sub_boats": []
-  },
-  {
-   "id": "taikaimaru",
-   "name": "大海丸",
-   "area": "小浜",
-   "home": null,
+   "home": "https://zekkouchou.com/syunteimaru/catch.php",
+   "link_only": true,
    "sub_boats": []
   }
  ]
