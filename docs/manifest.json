@@ -1,0 +1,13 @@
+{
+  "name": "若狭釣果まとめ",
+  "short_name": "釣果まとめ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0F2033",
+  "theme_color": "#0F2033",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

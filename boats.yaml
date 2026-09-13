@@ -1,0 +1,90 @@
+# 対象船の設定。船を足すときはここに1ブロック追加するだけ。
+# source: ameba / fc2 / wordpress / zekkouchou / html
+#   v0.1.0 で実装済みなのは RSS 系（ameba / fc2 / wordpress）のみ。
+#   zekkouchou / html は v0.2 で追加予定（enabled: false のまま）。
+
+boats:
+  - id: kazumimaru
+    name: 一美丸
+    area: 敦賀
+    source: ameba
+    ameba_id: kazumimaru20151010
+    home: https://ameblo.jp/kazumimaru20151010/
+
+  - id: chikuhoumaru
+    name: 竹宝丸
+    area: 敦賀
+    source: ameba
+    ameba_id: chikuhoumaru
+    home: https://ameblo.jp/chikuhoumaru/
+
+  - id: kaiseimaru
+    name: 海生丸
+    area: 小浜
+    source: ameba
+    ameba_id: kaisei2266
+    home: https://ameblo.jp/kaisei2266/
+
+  - id: kumomaru
+    name: 雲丸
+    area: 小浜（おおい）
+    source: ameba
+    ameba_id: fcloud
+    home: https://kumomaru.net/result/
+
+  - id: houryoumaru
+    name: 豊漁丸
+    area: 敦賀
+    source: fc2
+    feed: http://houryoumaru.blog.fc2.com/?xml
+    home: http://houryoumaru.blog.fc2.com/
+
+  - id: taimaru
+    name: 泰丸
+    area: 敦賀
+    source: wordpress
+    # 釣果カスタム投稿のフィード。404 のときは fallback を試す
+    feed: https://www.taimaru.jp/fishingpost/feed/
+    feed_fallback: https://www.taimaru.jp/feed/
+    home: https://www.taimaru.jp/fishingpost
+    # 3隻運用。抽出時に記事から判別して sub_boat に入れる
+    sub_boats:
+      - id: taimaru_main
+        name: 泰丸
+        hints: ["泰丸"]
+      - id: taimaru_second
+        name: Second
+        hints: ["Second", "セカンド"]
+      - id: taimaru_actions
+        name: Action's
+        hints: ["Action's", "Actions", "アクションズ"]
+
+  - id: dreamchaser
+    name: ドリームチェイサー
+    area: 京都
+    source: wordpress
+    feed: https://dream-chaser.kyoto.jp/chouka/feed/
+    feed_fallback: https://dream-chaser.kyoto.jp/feed/
+    home: https://dream-chaser.kyoto.jp/chouka/
+
+  # ---- v0.2 予定（HTML パーサ未実装） ----
+  - id: koueimaru
+    name: 高栄丸
+    area: 敦賀
+    source: zekkouchou
+    url: https://zekkouchou.com/koueimaru/catch.php
+    enabled: false
+
+  - id: syunteimaru
+    name: 春定丸
+    area: 敦賀
+    source: zekkouchou
+    url: https://zekkouchou.com/syunteimaru/catch.php
+    enabled: false
+
+  - id: taikaimaru
+    name: 大海丸
+    area: 小浜
+    source: html
+    url: https://www.taikai-web.com/88-report.html
+    enabled: false

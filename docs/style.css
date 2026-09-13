@@ -1,0 +1,161 @@
+/* ---- tokens: 夜の若狭湾と集魚灯 ---- */
+:root {
+  --sea: #0F2033;        /* 夜の海面 */
+  --deep: #0A1726;       /* 海底 */
+  --surface: #172D45;    /* 船体・カード */
+  --line: #24405E;
+  --fg: #E8EEF3;
+  --muted: #8FA3B8;
+  --lamp: #FFD166;       /* 集魚灯 */
+  --glow: #7DE0A5;       /* グロー塗料（数字用） */
+  --radius: 10px;
+  --font: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+  background: var(--sea);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+a { color: inherit; }
+h1, h2, h3, p, ul, ol { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+button { font: inherit; }
+[hidden] { display: none !important; }
+
+/* ---- header ---- */
+.top {
+  padding: 18px 16px 10px;
+  background:
+    radial-gradient(60% 90px at 50% 0, rgba(255, 209, 102, .22), transparent 70%),
+    var(--sea);
+}
+.top h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.updated { color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+/* ---- filters ---- */
+.filters {
+  position: sticky; top: 0; z-index: 5;
+  padding: 8px 12px 10px;
+  background: rgba(15, 32, 51, .92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  display: grid; gap: 6px;
+}
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: 0 0 auto;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.chip[aria-pressed="true"] {
+  background: var(--lamp);
+  border-color: var(--lamp);
+  color: var(--deep);
+  font-weight: 600;
+}
+.chip:focus-visible { outline: 2px solid var(--glow); outline-offset: 2px; }
+
+/* ---- sections ---- */
+main { padding: 8px 12px 24px; }
+section + section { margin-top: 22px; }
+h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 6px 4px 8px;
+}
+
+/* ---- 船ごとの最新 ---- */
+.boat-latest {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+.boat-latest li {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  display: grid;
+  gap: 2px;
+}
+.boat-latest .name { font-weight: 600; font-size: 14px; }
+.boat-latest .when { color: var(--muted); font-size: 12px; }
+.boat-latest .num {
+  color: var(--glow);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.boat-latest .num small { display: block; font-size: 12px; color: var(--muted); font-weight: 500; line-height: 1.3; }
+.boat-latest li.stale { opacity: .55; }
+
+/* ---- 日別タイムライン ---- */
+.day { margin-bottom: 14px; }
+.day > h3 {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 4px 6px;
+  display: flex; align-items: baseline; gap: 8px;
+}
+.day > h3 .dow { color: var(--muted); font-size: 12px; font-weight: 500; }
+.day ul { display: grid; gap: 6px; }
+
+.catch {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+.catch::before {
+  /* 集魚灯の光柱：竿頭の匹数に比例して左端から伸びる */
+  content: "";
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: var(--bar, 0%);
+  background: linear-gradient(90deg, rgba(255, 209, 102, .18), transparent);
+  pointer-events: none;
+}
+.catch .row1 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.catch .boat { font-weight: 600; }
+.catch .area { color: var(--muted); font-size: 12px; margin-left: 6px; }
+.catch .trip { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.catch .species {
+  display: flex; flex-wrap: wrap; gap: 4px 10px;
+  margin-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.catch .species b { color: var(--glow); font-weight: 700; }
+.catch .species .sp { color: var(--fg); }
+.catch .species .sp small { color: var(--muted); font-size: 12px; }
+.catch .summary { color: var(--muted); font-size: 13px; margin-top: 4px; }
+.catch .methods { color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+.empty { color: var(--muted); text-align: center; padding: 40px 12px; }
+
+/* ---- footer ---- */
+.foot { padding: 14px 16px 28px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); }
+.foot p + p { margin-top: 6px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .catch::before { transition: width .4s ease-out; }
+}

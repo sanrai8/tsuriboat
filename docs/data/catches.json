@@ -1,0 +1,29 @@
+{
+ "schema_version": 1,
+ "sample": true,
+ "generated_at": "2026-09-12T06:00:00+09:00",
+ "catches": [
+  {"id": "sample01", "boat_id": "dreamchaser", "boat_key": "dreamchaser", "boat_name": "ドリームチェイサー", "area": "京都",
+   "trip_date": "2026-09-03", "trip_type": "半夜便", "methods": ["イカメタル", "オモリグ"],
+   "species": [{"name": "ケンサキイカ", "min": 40, "max": 133, "total": null, "size_note": "大剣混じり"}],
+   "top_count": 133, "condition": "潮ゆるく好調", "summary": "マイカ爆釣、多い方133杯", "title": "9/3マイカ爆釣です", "url": "https://dream-chaser.kyoto.jp/chouka/", "published": "2026-09-04T08:00:00+09:00"},
+  {"id": "sample02", "boat_id": "taimaru", "boat_key": "taimaru_actions", "boat_name": "泰丸 Action's", "area": "敦賀",
+   "trip_date": "2026-09-11", "trip_type": "半夜便", "methods": ["イカメタル"],
+   "species": [{"name": "ケンサキイカ", "min": 8, "max": 35, "total": null, "size_note": null}],
+   "top_count": 35, "condition": "サバ多め", "summary": "ポツポツ、後半にまとまる", "title": "１１日マイカ半夜便", "url": "https://www.taimaru.jp/fishingpost", "published": "2026-09-11T23:30:00+09:00"},
+  {"id": "sample03", "boat_id": "taimaru", "boat_key": "taimaru_second", "boat_name": "泰丸 Second", "area": "敦賀",
+   "trip_date": "2026-09-12", "trip_type": "午前便", "methods": ["ティップラン"],
+   "species": [{"name": "アオリイカ", "min": 5, "max": 18, "total": null, "size_note": "300g前後"}],
+   "top_count": 18, "condition": null, "summary": "新子サイズ中心に数釣り", "title": "１２日アオリイカ午前便", "url": "https://www.taimaru.jp/fishingpost", "published": "2026-09-12T12:00:00+09:00"},
+  {"id": "sample04", "boat_id": "kazumimaru", "boat_key": "kazumimaru", "boat_name": "一美丸", "area": "敦賀",
+   "trip_date": "2026-09-10", "trip_type": "深夜便", "methods": ["イカメタル"],
+   "species": [{"name": "ケンサキイカ", "min": null, "max": 39, "total": null, "size_note": "良型"}],
+   "top_count": 39, "condition": "途中失速", "summary": "竿頭39ハイ、サイズ良好", "title": "イカメタル便。今夜もポツポツと", "url": "https://ameblo.jp/kazumimaru20151010/", "published": "2026-09-11T01:00:00+09:00"},
+  {"id": "sample05", "boat_id": "kumomaru", "boat_key": "kumomaru", "boat_name": "雲丸", "area": "小浜（おおい）",
+   "trip_date": "2026-09-09", "trip_type": "半夜便", "methods": ["イカメタル", "バチコン"],
+   "species": [{"name": "ケンサキイカ", "min": 10, "max": 28, "total": null, "size_note": null}, {"name": "マアジ", "min": null, "max": 25, "total": null, "size_note": "30cm前後"}],
+   "top_count": 28, "condition": "潮速く流し釣り", "summary": "イカもアジも好調", "title": "イカもアジも好調", "url": "https://kumomaru.net/result/", "published": "2026-09-10T09:00:00+09:00"}
+ ],
+ "skipped_ids": [],
+ "boats": []
+}
