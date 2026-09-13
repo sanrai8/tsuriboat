@@ -1,5 +1,5 @@
-// v0.2.0: アプリ殻だけキャッシュ。data/catches.json は常にネットワーク優先。
-const CACHE = "tsuriboat-shell-v0.2.0";
+// v0.3.0: アプリ殻だけキャッシュ。data/catches.json は常にネットワーク優先。
+const CACHE = "tsuriboat-shell-v0.3.0";
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", e => {

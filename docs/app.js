@@ -1,4 +1,4 @@
-// 若狭釣果まとめ v0.2.0
+// 若狭釣果まとめ v0.3.0
 // data/catches.json を読み、エリア・魚種で絞り込んで日別に表示する。
 
 const AREA_GROUPS = [
@@ -76,10 +76,12 @@ function renderChips(containerId, groups, key) {
 function primarySpecies(c) {
   // フィルタ中の魚種を優先、なければ最大値をもつ魚種
   const g = SPECIES_GROUPS.find(g => g.key === state.species);
-  const list = (c.species || []).filter(s => countText(s));
-  const hit = g.key !== "all" ? list.find(s => g.match(s.name)) : null;
-  if (hit) return hit;
-  return list.sort((a, b) => (b.max ?? b.total ?? 0) - (a.max ?? a.total ?? 0))[0] || null;
+  const all = (c.species || []).filter(s => s && s.name);
+  if (g.key !== "all") {
+    // フィルタ中は他魚種で埋めず、その魚種を数値なしでも表示する
+    return all.filter(s => g.match(s.name)).sort((a, b) => (b.max ?? b.total ?? -1) - (a.max ?? a.total ?? -1))[0] || null;
+  }
+  return all.filter(s => countText(s)).sort((a, b) => (b.max ?? b.total ?? 0) - (a.max ?? a.total ?? 0))[0] || null;
 }
 
 function renderLatest(list) {
@@ -98,8 +100,9 @@ function renderLatest(list) {
     const sp = primarySpecies(c);
     const num = el("span", "num");
     if (sp) {
-      num.textContent = countText(sp);
-      const small = el("small", null, `${unit(sp.name)} ${sp.name}`);
+      const n = countText(sp);
+      num.textContent = n || "—";
+      const small = el("small", null, n ? `${unit(sp.name)} ${sp.name}` : `${sp.name}（数不明）`);
       num.appendChild(small);
     } else {
       num.textContent = "—";
@@ -172,6 +175,66 @@ function renderCatch(c, maxTop) {
   return a;
 }
 
+// ---------- 推移グラフ ----------
+const PALETTE = ["#FFD166", "#7DE0A5", "#6EC1FF", "#FF8FA3", "#C89BFF", "#FFB26E", "#8EE3E0", "#E0D68A", "#B0B8FF", "#F5A3FF"];
+const TREND_DAYS = 14;
+
+function trendValue(c) {
+  // フィルタ中の魚種の max（未指定なら top_count → 最大 max）
+  const g = SPECIES_GROUPS.find(g => g.key === state.species);
+  const list = (c.species || []).filter(s => s && s.max != null);
+  if (g.key !== "all") {
+    const hit = list.find(s => g.match(s.name));
+    return hit ? hit.max : null;
+  }
+  if (c.top_count != null) return c.top_count;
+  return list.length ? Math.max(...list.map(s => s.max)) : null;
+}
+
+function renderTrend(list) {
+  const box = $("#chart"), legend = $("#legend");
+  box.innerHTML = ""; legend.innerHTML = "";
+  const g = SPECIES_GROUPS.find(g => g.key === state.species);
+  $("#trend-title").textContent = `${g.key === "all" ? "竿頭" : g.label + " 竿頭"}の推移（直近${TREND_DAYS}日）`;
+
+  const pts = list
+    .map(c => ({ c, v: trendValue(c), d: daysAgo(c.trip_date) }))
+    .filter(p => p.v != null && p.d >= 0 && p.d < TREND_DAYS);
+  const boats = [...new Set(pts.map(p => p.c.boat_key))];
+  $("#trend").hidden = pts.length < 2;
+  if (pts.length < 2) return;
+
+  const W = 360, H = 170, L = 28, R = 8, T = 8, B = 22;
+  const maxV = Math.max(10, ...pts.map(p => p.v));
+  const yTick = maxV <= 20 ? 5 : maxV <= 50 ? 10 : maxV <= 100 ? 20 : 50;
+  const yMax = Math.ceil(maxV / yTick) * yTick;
+  const x = d => L + ((TREND_DAYS - 1 - d) / (TREND_DAYS - 1)) * (W - L - R);
+  const y = v => T + (1 - v / yMax) * (H - T - B);
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${$("#trend-title").textContent}">`;
+  for (let v = 0; v <= yMax; v += yTick) {
+    svg += `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/>`;
+    svg += `<text class="axis" x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v}</text>`;
+  }
+  for (let d = 0; d < TREND_DAYS; d += (TREND_DAYS > 10 ? 2 : 1)) {
+    const dt = new Date(Date.now() + 9 * 3600000 - d * 86400000);
+    svg += `<text class="axis" x="${x(d)}" y="${H - 6}" text-anchor="middle">${dt.getUTCMonth() + 1}/${dt.getUTCDate()}</text>`;
+  }
+  boats.forEach((bk, i) => {
+    const color = PALETTE[i % PALETTE.length];
+    const series = pts.filter(p => p.c.boat_key === bk).sort((a, b) => b.d - a.d);
+    if (series.length > 1) {
+      svg += `<polyline class="series" stroke="${color}" points="${series.map(p => `${x(p.d)},${y(p.v)}`).join(" ")}"/>`;
+    }
+    series.forEach(p => { svg += `<circle class="pt" cx="${x(p.d)}" cy="${y(p.v)}" r="3.5" fill="${color}"><title>${p.c.boat_name} ${fmtDate(p.c.trip_date).md} ${p.v}</title></circle>`; });
+    const li = el("li"); const dot = el("i"); dot.style.background = color;
+    li.appendChild(dot); li.appendChild(document.createTextNode(series[0].c.boat_name));
+    legend.appendChild(li);
+  });
+  svg += "</svg>";
+  box.innerHTML = svg;
+}
+
 function renderLinkOnly() {
   const ag = AREA_GROUPS.find(g => g.key === state.area);
   const boats = (state.data.boats || []).filter(b => b.link_only && b.home && ag.match(b.area || ""));
@@ -193,6 +256,7 @@ function render() {
   renderChips("#species-chips", SPECIES_GROUPS, "species");
   const list = filtered();
   renderLatest(list);
+  renderTrend(list);
   renderDays(list);
   renderLinkOnly();
 }
