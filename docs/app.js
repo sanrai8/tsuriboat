@@ -1,4 +1,4 @@
-// 若狭釣果まとめ v0.1.0
+// 若狭釣果まとめ v0.2.0
 // data/catches.json を読み、エリア・魚種で絞り込んで日別に表示する。
 
 const AREA_GROUPS = [
@@ -172,12 +172,29 @@ function renderCatch(c, maxTop) {
   return a;
 }
 
+function renderLinkOnly() {
+  const ag = AREA_GROUPS.find(g => g.key === state.area);
+  const boats = (state.data.boats || []).filter(b => b.link_only && b.home && ag.match(b.area || ""));
+  const box = $("#linkonly-list");
+  box.innerHTML = "";
+  $("#linkonly").hidden = boats.length === 0;
+  boats.forEach(b => {
+    const li = el("li");
+    const link = el("a", null, b.name);
+    link.href = b.home; link.target = "_blank"; link.rel = "noopener";
+    link.appendChild(el("span", "area", b.area));
+    li.appendChild(link);
+    box.appendChild(li);
+  });
+}
+
 function render() {
   renderChips("#area-chips", AREA_GROUPS, "area");
   renderChips("#species-chips", SPECIES_GROUPS, "species");
   const list = filtered();
   renderLatest(list);
   renderDays(list);
+  renderLinkOnly();
 }
 
 // ---------- boot ----------

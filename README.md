@@ -25,7 +25,9 @@ cd docs && python -m http.server 8000      # http://localhost:8000
 
 ## 船を追加する
 
-`boats.yaml` にブロックを追加するだけ。`source` は `ameba` / `fc2` / `wordpress`（0.1.0 時点）。
+`boats.yaml` にブロックを追加するだけ。`source` は `ameba` / `fc2` / `wordpress` / `html`。自動取得しない船は `link_only: true` で登録するとリンクだけ表示される。
+
+取得前にそのサイトの robots.txt を確認し、禁止されている場合は `link_only` にする。
 
 ## 構成
 

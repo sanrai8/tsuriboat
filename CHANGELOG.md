@@ -2,6 +2,24 @@
 
 このプロジェクトの変更履歴。形式は Keep a Changelog、バージョンは SemVer。
 
+## [0.2.0] - 2026-09-13
+
+### Added
+- 第八十八大海丸を追加。`source: html` アダプタ（1ページに和暦見出しで羅列された釣果を `block_pattern` で分割）
+- `link_only: true` の船をアプリ下部に外部リンクとして表示（高栄丸・春定丸）
+
+### Changed
+- 高栄丸・春定丸は zekkouchou.com が robots.txt で自動取得を禁止しているため、パーサ実装を取りやめリンクのみに変更
+
+## [0.1.1] - 2026-09-13
+
+### Changed
+- GitHub Actions を checkout@v5 / setup-python@v6 に更新（Node.js 20 非推奨警告の解消）
+- 釣果報告でないと判定してスキップした記事のタイトル・URLを `skipped` に記録（直近50件）。後から判定の妥当性を確認できるようにした
+
+### Verified
+- 初回本番実行：7隻すべて取得成功、55件抽出、9件スキップ。泰丸の3船分離が動作。小川さんの目視で釣果が元記事と一致
+
 ## [0.1.0] - 2026-09-12
 
 初版。RSS で取れる船だけで「取得 → Claude 抽出 → JSON → PWA 表示」を一気通貫で動かす骨組み。
@@ -18,6 +36,4 @@
 - `docs/data/catches.json`：表示確認用サンプル（`"sample": true`。初回の本番実行で破棄される）
 
 ### Not yet
-- zekkouchou（高栄丸・春定丸）、大海丸の HTML アダプタ → 0.2.0 予定
-- 匹数推移グラフ → 0.2.0 予定
-- RSS URL（泰丸の `/fishingpost/feed/`、Ameba の `rssblog.ameba.jp`）は初回実行で疎通確認が必要
+- 匹数推移グラフ → 0.3.0 予定

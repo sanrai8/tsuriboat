@@ -159,3 +159,13 @@ h2 {
 @media (prefers-reduced-motion: no-preference) {
   .catch::before { transition: width .4s ease-out; }
 }
+
+/* ---- 自動取得していない船 ---- */
+.linkonly .note { color: var(--muted); font-size: 12px; margin: -4px 4px 8px; }
+.linkonly ul { display: flex; flex-wrap: wrap; gap: 6px; }
+.linkonly a {
+  display: inline-block; padding: 8px 12px;
+  background: var(--surface); border-radius: var(--radius);
+  text-decoration: none; font-size: 14px;
+}
+.linkonly a .area { color: var(--muted); font-size: 12px; margin-left: 6px; }

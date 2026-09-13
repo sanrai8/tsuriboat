@@ -1,5 +1,5 @@
 """
-tsuriboat scraper v0.1.0
+tsuriboat scraper v0.2.0
 
 boats.yaml に登録された船の釣果記事を取得し、Claude で構造化して
 docs/data/catches.json に追記する。GitHub Actions から毎朝実行される想定。
@@ -128,12 +128,46 @@ def adapter_wordpress(boat: dict) -> list[dict]:
         raise
 
 
+_Z2H = str.maketrans("０１２３４５６７８９", "0123456789")
+
+
+def adapter_html(boat: dict) -> list[dict]:
+    """1ページに日付見出しで釣果が羅列されている静的HTML用（大海丸など）。
+    boat["block_pattern"] の正規表現（和暦の年・月・日をグループ1〜3、見出し残りを4）で分割する。"""
+    r = requests.get(boat["url"], headers={"User-Agent": UA}, timeout=20)
+    r.raise_for_status()
+    r.encoding = r.apparent_encoding or r.encoding
+    text = html_to_text(r.text)
+    pat = re.compile(boat["block_pattern"])
+    matches = list(pat.finditer(text))
+    out = []
+    for i, m in enumerate(matches):
+        wareki_y, mo, d = (int(m.group(k).translate(_Z2H)) for k in (1, 2, 3))
+        year = 2018 + wareki_y  # 令和1年 = 2019年
+        try:
+            published = datetime(year, mo, d, 12, 0, tzinfo=JST)
+        except ValueError:
+            continue
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        body = text[m.end():end].strip()
+        # 空欄の「仕掛け：」行や表の罫線ゴミを落とす
+        body = re.sub(r"^(仕掛け：|#top)\s*$", "", body, flags=re.M)
+        body = re.sub(r"\n{2,}", "\n", body).strip()
+        heading = re.sub(r"#top|\[.*?\]\(.*?\)", "", m.group(4) or "").strip()
+        out.append({
+            "title": f"{mo}/{d} {heading}".strip(),
+            "link": f"{boat['url']}#{published:%Y%m%d}",
+            "published": published,
+            "content": f"{published:%Y年%m月%d日} {heading}\n{body}",
+        })
+    return out
+
+
 ADAPTERS = {
     "ameba": adapter_ameba,
     "fc2": adapter_fc2,
     "wordpress": adapter_wordpress,
-    # "zekkouchou": adapter_zekkouchou,   # v0.2
-    # "html": adapter_html,               # v0.2
+    "html": adapter_html,
 }
 
 
@@ -241,7 +275,7 @@ def main() -> int:
     args = ap.parse_args()
 
     cfg = yaml.safe_load(BOATS_YAML.read_text(encoding="utf-8"))
-    boats = [b for b in cfg["boats"] if b.get("enabled", True)]
+    boats = [b for b in cfg["boats"] if b.get("enabled", True) and not b.get("link_only")]
     if args.boat:
         boats = [b for b in boats if b["id"] == args.boat]
 
@@ -330,6 +364,7 @@ def main() -> int:
     data["generated_at"] = datetime.now(JST).isoformat()
     data["boats"] = [
         {"id": b["id"], "name": b["name"], "area": b["area"], "home": b.get("home"),
+         "link_only": bool(b.get("link_only")),
          "sub_boats": [{"id": s["id"], "name": s["name"]} for s in b.get("sub_boats", [])]}
         for b in cfg["boats"]
     ]

@@ -1,7 +1,6 @@
 # 対象船の設定。船を足すときはここに1ブロック追加するだけ。
-# source: ameba / fc2 / wordpress / zekkouchou / html
-#   v0.1.0 で実装済みなのは RSS 系（ameba / fc2 / wordpress）のみ。
-#   zekkouchou / html は v0.2 で追加予定（enabled: false のまま）。
+# source: ameba / fc2 / wordpress / html
+#   link_only: true の船は自動取得せず、アプリ内に外部リンクだけ表示する。
 
 boats:
   - id: kazumimaru
@@ -67,24 +66,25 @@ boats:
     feed_fallback: https://dream-chaser.kyoto.jp/feed/
     home: https://dream-chaser.kyoto.jp/chouka/
 
-  # ---- v0.2 予定（HTML パーサ未実装） ----
+  - id: taikaimaru
+    name: 第八十八大海丸
+    area: 小浜
+    source: html
+    url: https://www.taikai-web.com/88-report.html
+    home: https://www.taikai-web.com/88-report.html
+    # 1ページに「令和８年９月８日（火） 半夜便」見出しで羅列されている形式。
+    # 見出しの正規表現でブロックに分割し、各ブロックを1記事として扱う。
+    block_pattern: "令和([０-９0-9]+)年([０-９0-9]+)月([０-９0-9]+)日（?[月火水木金土日]?）?[ 　]*([^\\n]*)"
+
+  # ---- リンクのみ（zekkouchou.com は robots.txt で自動取得を禁止しているため） ----
   - id: koueimaru
     name: 高栄丸
     area: 敦賀
-    source: zekkouchou
-    url: https://zekkouchou.com/koueimaru/catch.php
-    enabled: false
+    link_only: true
+    home: https://zekkouchou.com/koueimaru/catch.php
 
   - id: syunteimaru
     name: 春定丸
     area: 敦賀
-    source: zekkouchou
-    url: https://zekkouchou.com/syunteimaru/catch.php
-    enabled: false
-
-  - id: taikaimaru
-    name: 大海丸
-    area: 小浜
-    source: html
-    url: https://www.taikai-web.com/88-report.html
-    enabled: false
+    link_only: true
+    home: https://zekkouchou.com/syunteimaru/catch.php
