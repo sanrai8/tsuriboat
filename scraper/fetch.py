@@ -292,6 +292,10 @@ def main() -> int:
                 continue
             if not ex.get("is_catch_report"):
                 data.setdefault("skipped_ids", []).append(eid)
+                # 何を弾いたか後で確認できるようタイトルも残す（直近50件）
+                data.setdefault("skipped", []).append(
+                    {"id": eid, "boat": boat["name"], "title": e["title"][:60], "url": e["link"]})
+                data["skipped"] = data["skipped"][-50:]
                 known.add(eid)
                 continue
 
