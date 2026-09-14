@@ -1,7 +1,90 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14T06:07:31.628513+09:00",
+ "generated_at": "2026-09-15T06:07:23.764299+09:00",
  "catches": [
+  {
+   "id": "cc04f60aac8c",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-14",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "後半は大型も混じった"
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "ラッシュはないもののポツポツとヒット。後半は大型も混じった。",
+   "title": "9月14日(月)　マイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12978741910.html",
+   "published": "2026-09-15T00:27:27+09:00",
+   "extracted_at": "2026-09-15T06:07:16.088674+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "baabeccbc33f",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-14",
+   "trip_type": null,
+   "methods": [
+    "イカメタル"
+   ],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 47,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 47,
+   "condition": "雨風。後半に釣れ始める",
+   "summary": "雨の恩恵で後半良く当たった。竿頭47ハイ",
+   "title": "９月１４日(月)イカメタル便。雨の恩恵",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12978739273.html",
+   "published": "2026-09-14T23:47:08+09:00",
+   "extracted_at": "2026-09-15T06:07:13.695393+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "afe3e1fe96a6",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-09-14",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": 9,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 9,
+   "condition": "朝マヅメなく、あたり少ない",
+   "summary": "前半あたり少なく、後半コウイカ連発。トップ9杯で厳しい釣況",
+   "title": "１４日アオリイカ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/107081/",
+   "published": "2026-09-14T09:31:13+09:00",
+   "extracted_at": "2026-09-15T06:07:20.692836+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "81396f6b95a6",
    "boat_id": "kaiseimaru",
