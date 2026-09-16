@@ -1,7 +1,36 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-16T06:07:49.971645+09:00",
+ "generated_at": "2026-09-17T06:07:54.096585+09:00",
  "catches": [
+  {
+   "id": "d3373c26d76c",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-09-15",
+   "trip_type": "ナイトティップラン",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "大きくなってきた"
+    }
+   ],
+   "top_count": null,
+   "condition": "雨の恩恵により好調。イカが大きくなってきた",
+   "summary": "ナイトティップラン。雨の恵みで好釣。アオリイカが大きくなり良い季節へ",
+   "title": "雨の恵みに感謝✨",
+   "url": "https://ameblo.jp/fcloud/entry-12978870092.html",
+   "published": "2026-09-16T11:18:12+09:00",
+   "extracted_at": "2026-09-17T06:07:48.199344+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "736d3d5f887a",
    "boat_id": "kaiseimaru",
