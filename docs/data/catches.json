@@ -1,7 +1,160 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-17T06:07:54.096585+09:00",
+ "generated_at": "2026-09-18T06:08:11.806932+09:00",
  "catches": [
+  {
+   "id": "7a6cacc6c902",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-17",
+   "trip_type": "半夜便",
+   "methods": [
+    "タイラバ",
+    "アジング"
+   ],
+   "species": [
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": 5,
+     "total": 13,
+     "size_note": null
+    },
+    {
+     "name": "マアジ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "レンコダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "少々"
+    },
+    {
+     "name": "チカメキントキ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マサバ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "マサバが多く当たる、アジアタリ遅め",
+   "summary": "タイラバにアジング。マダイ竿頭5匹船中13匹。アジ少々。",
+   "title": "17日半夜便マダイ&マアジ",
+   "url": "https://www.taimaru.jp/fishingpost/107179/",
+   "published": "2026-09-18T00:43:43+09:00",
+   "extracted_at": "2026-09-18T06:08:00.025468+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "50dda8f60a23",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-17",
+   "trip_type": "ナイト便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 21,
+     "total": null,
+     "size_note": "サイズ良好"
+    }
+   ],
+   "top_count": 21,
+   "condition": "アンカリング（流さず）",
+   "summary": "今シーズン初ナイトアオリ便。竿頭21ハイ。ポツポツ釣れた。",
+   "title": "９月１７日(木)ナイトアオリ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12979025625.html",
+   "published": "2026-09-18T00:37:56+09:00",
+   "extracted_at": "2026-09-18T06:07:50.110914+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "4271a898e334",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-09-17",
+   "trip_type": "午後便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 12,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 12,
+   "condition": "風なく船流れず",
+   "summary": "ランガンで拾い釣り。トップ12杯、2番手11杯の接戦",
+   "title": "１７日アオリイカ午後便",
+   "url": "https://www.taimaru.jp/fishingpost/107154/",
+   "published": "2026-09-17T19:27:12+09:00",
+   "extracted_at": "2026-09-18T06:08:02.561485+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "d5cf23884d82",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-09-17",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": "サイズ良好"
+    }
+   ],
+   "top_count": 7,
+   "condition": "朝マヅメ後はあたり遠くなる",
+   "summary": "朝マヅメでポツポツ。ダブルヒットもあったが、その後は数伸びず。竿頭7杯。",
+   "title": "１７日アオリイカ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/107130/",
+   "published": "2026-09-17T11:09:59+09:00",
+   "extracted_at": "2026-09-18T06:08:05.626646+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "d3373c26d76c",
    "boat_id": "kumomaru",
@@ -2669,7 +2822,8 @@
   "88fdb80538aa",
   "4a888d2fdbcd",
   "6ca5d8d6d252",
-  "5b1552dc7106"
+  "5b1552dc7106",
+  "e3b60fcf4719"
  ],
  "boats": [
   {
@@ -2772,6 +2926,12 @@
    "boat": "雲丸",
    "title": "ティップラン　昼便",
    "url": "https://ameblo.jp/fcloud/entry-12978817520.html"
+  },
+  {
+   "id": "e3b60fcf4719",
+   "boat": "竹宝丸",
+   "title": "9月17日(木)　マイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12979026529.html"
   }
  ]
 }
