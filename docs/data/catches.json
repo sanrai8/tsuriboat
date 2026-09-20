@@ -1,7 +1,290 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-20T06:07:22.305561+09:00",
+ "generated_at": "2026-09-21T06:07:25.555854+09:00",
  "catches": [
+  {
+   "id": "9a485c945739",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-09-20",
+   "trip_type": "夕方便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 20,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 20,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 20,
+   "condition": "厳しい状況",
+   "summary": "アオリ・ケンサキ合わせてトップ20杯。2名が上がった。",
+   "title": "9/20(日) アオリイカの夕方便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12979308217.html",
+   "published": "2026-09-21T02:27:06+09:00",
+   "extracted_at": "2026-09-21T06:07:05.855352+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "e28f30b9fce3",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-20",
+   "trip_type": null,
+   "methods": [
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "タイ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 2,
+   "condition": "そこそこ風あり、潮流あり。ベイト反応少なめ",
+   "summary": "タイラバでタイ2匹。潮が動けば今後チャンスあり",
+   "title": "9月20日(日)　タイラバ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12979280885.html",
+   "published": "2026-09-20T19:31:14+09:00",
+   "extracted_at": "2026-09-21T06:07:03.837580+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "eada18391be8",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-20",
+   "trip_type": null,
+   "methods": [
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "タイ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 2,
+   "condition": "風なく厳しい。風が吹いたタイミングで釣果",
+   "summary": "タイラバでタイ2枚。その後根魚ゲーム。",
+   "title": "９月２０日(日)タイラバ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12979250520.html",
+   "published": "2026-09-20T13:40:53+09:00",
+   "extracted_at": "2026-09-21T06:07:01.826153+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "35494bc9ab67",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_main",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-20",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "レンコダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "キジハタ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "カイワリ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マサバ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "カサゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "カワハギ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "五目釣りチャーター。キジハタ狙いで期待通りに釣果",
+   "title": "20日午前便五目釣り\n　　チャーター",
+   "url": "https://www.taimaru.jp/fishingpost/107467/",
+   "published": "2026-09-20T10:51:42+09:00",
+   "extracted_at": "2026-09-21T06:07:14.168703+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "6f6715831383",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-09-20",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "良型"
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 13,
+   "condition": null,
+   "summary": "朝マヅメでアオリ良型ポツポツ。後半コウイカ優勢。トップ13杯。",
+   "title": "２０日アオリイカ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/107442/",
+   "published": "2026-09-20T09:26:58+09:00",
+   "extracted_at": "2026-09-21T06:07:16.663869+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "bbc9abace2d2",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-09-19",
+   "trip_type": "夕方＆深夜便",
+   "methods": [
+    "ナイトティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": 15,
+     "max": 38,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "大"
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "真鯛",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "75㎝"
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 38,
+   "condition": null,
+   "summary": "アオリイカ夕方＆深夜便。竿頭38杯。難しい状況だった。",
+   "title": "9/19(土) アオリイカの夕方＆深夜",
+   "url": "https://ameblo.jp/kaisei2266/entry-12979236081.html",
+   "published": "2026-09-20T10:33:39+09:00",
+   "extracted_at": "2026-09-21T06:07:08.266566+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "3b4481de7015",
+   "boat_id": "houryoumaru",
+   "boat_key": "houryoumaru",
+   "boat_name": "豊漁丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-19",
+   "trip_type": "半夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 21,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 21,
+   "condition": null,
+   "summary": "アオリティップラン便で竿頭21杯。マイカ半夜便も後半伸びてきた",
+   "title": "2026/09/19",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2926.html",
+   "published": "2026-09-20T07:08:01+09:00",
+   "extracted_at": "2026-09-21T06:07:10.224424+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "65e7106e5ec3",
    "boat_id": "kaiseimaru",
@@ -282,6 +565,33 @@
    "url": "https://ameblo.jp/chikuhoumaru/entry-12979153432.html",
    "published": "2026-09-19T12:28:52+09:00",
    "extracted_at": "2026-09-20T06:06:58.342963+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "afe3f385eedd",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-09-19",
+   "trip_type": "昼便",
+   "methods": [],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": 8,
+     "total": null,
+     "size_note": "8kg"
+    }
+   ],
+   "top_count": 8,
+   "condition": null,
+   "summary": "大物狙いで複数バラシ。8kgブリ1尾、その他はエイ等。",
+   "title": "9/19",
+   "url": "https://www.taikai-web.com/88-report.html#20260919",
+   "published": "2026-09-19T12:00:00+09:00",
+   "extracted_at": "2026-09-21T06:07:23.805700+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
@@ -2087,6 +2397,33 @@
    "url": "https://ameblo.jp/kazumimaru20151010/entry-12978491619.html",
    "published": "2026-09-12T12:15:09+09:00",
    "extracted_at": "2026-09-13T21:51:56.348515+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "1742e93040ff",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-09-12",
+   "trip_type": "昼便",
+   "methods": [],
+   "species": [
+    {
+     "name": "クエ",
+     "min": null,
+     "max": 4,
+     "total": null,
+     "size_note": "29kg、食べ頃サイズ"
+    }
+   ],
+   "top_count": 4,
+   "condition": "気配ビンビン、餌抜き当たり多数",
+   "summary": "秋クエ開幕。新野さん29kg筆頭に4本。パワー全開で強烈な引き",
+   "title": "9/12",
+   "url": "https://www.taikai-web.com/88-report.html#20260912",
+   "published": "2026-09-12T12:00:00+09:00",
+   "extracted_at": "2026-09-21T06:07:25.555767+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
