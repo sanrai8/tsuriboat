@@ -1,7 +1,101 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-22T06:07:36.112314+09:00",
+ "generated_at": "2026-09-23T06:07:32.381392+09:00",
  "catches": [
+  {
+   "id": "c54c67264e93",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-09-22",
+   "trip_type": "深夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 15,
+     "total": null,
+     "size_note": "キロアップ含む"
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 8,
+     "total": 8,
+     "size_note": null
+    }
+   ],
+   "top_count": 15,
+   "condition": "前半バタつく海、ウネリ残る厳しい条件",
+   "summary": "アオリトップ15。厳しい条件でも活性あり。キロアップ出現。",
+   "title": "9/22(火) アオリイカの深夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12979504889.html",
+   "published": "2026-09-23T05:58:26+09:00",
+   "extracted_at": "2026-09-23T06:07:21.972587+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "f1033b22aa69",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-09-20",
+   "trip_type": null,
+   "methods": [
+    "サビキ釣り",
+    "バチコン"
+   ],
+   "species": [
+    {
+     "name": "アジ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "型は小さい"
+    },
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サンバソウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "カワハギ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "湾内は穏やか、外は時化予報",
+   "summary": "湾内サビキ＆バチコン好調。アジ好調、エギでアオリイカもヒット。他魚種も釣れ楽しい",
+   "title": "湾内サビキ＆バチコン便　好調です",
+   "url": "https://ameblo.jp/fcloud/entry-12979422836.html",
+   "published": "2026-09-22T09:08:11+09:00",
+   "extracted_at": "2026-09-23T06:07:26.813806+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "d480e4b145e5",
    "boat_id": "kumomaru",
