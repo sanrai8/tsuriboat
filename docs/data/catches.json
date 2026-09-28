@@ -1,7 +1,91 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T06:08:15.146205+09:00",
+ "generated_at": "2026-09-29T06:08:06.990350+09:00",
  "catches": [
+  {
+   "id": "5b5dcb584b35",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-28",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "大型混じり"
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "フグ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "雨。サゴシ・フグの活性高く邪魔",
+   "summary": "イカの活性上がらず厳しい釣況。数が上がらず",
+   "title": "9月28日(月)　マイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12980069956.html",
+   "published": "2026-09-29T00:58:22+09:00",
+   "extracted_at": "2026-09-29T06:07:55.074296+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "2803ea5f844f",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-09-27",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 14,
+     "total": null,
+     "size_note": "型が良い"
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": 17,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": 5,
+     "size_note": null
+    }
+   ],
+   "top_count": 14,
+   "condition": null,
+   "summary": "アオリイカ竿頭14杯。型良好でボリューム十分。",
+   "title": "9/27(日) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12979982677.html",
+   "published": "2026-09-28T06:15:03+09:00",
+   "extracted_at": "2026-09-29T06:07:57.612787+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "15f9c0b78afb",
    "boat_id": "chikuhoumaru",
@@ -643,6 +727,35 @@
    "url": "https://www.taimaru.jp/fishingpost/107763/",
    "published": "2026-09-26T09:44:06+09:00",
    "extracted_at": "2026-09-27T06:07:37.012197+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "43c9ad869e86",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-09-25",
+   "trip_type": "ナイト便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": 71,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "後半勝負で船中71杯。前半は苦しかったが後半盛れた。",
+   "title": "後半勝負に！　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12980028497.html",
+   "published": "2026-09-28T16:21:12+09:00",
+   "extracted_at": "2026-09-29T06:08:00.232474+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
@@ -5999,7 +6112,8 @@
   "d27bc01c89c0",
   "b03bf9e2dbee",
   "43deca571f21",
-  "176a00451ea6"
+  "176a00451ea6",
+  "feacfa4d01d9"
  ],
  "boats": [
   {
@@ -6168,6 +6282,12 @@
    "boat": "泰丸",
    "title": "２６日マイカ半夜便",
    "url": "https://www.taimaru.jp/fishingpost/107799/"
+  },
+  {
+   "id": "feacfa4d01d9",
+   "boat": "雲丸",
+   "title": "伊丹青年会議所の皆様とナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12980026422.html"
   }
  ]
 }
