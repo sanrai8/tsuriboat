@@ -1,7 +1,124 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-30T06:08:41.684432+09:00",
+ "generated_at": "2026-10-01T06:08:40.609709+09:00",
  "catches": [
+  {
+   "id": "adee385606ab",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-09-30",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 17,
+     "total": null,
+     "size_note": "型は良かった"
+    }
+   ],
+   "top_count": 17,
+   "condition": "手強いコンディション",
+   "summary": "アオリイカティップラン。トップ17杯で型も良好。",
+   "title": "9/30(水) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12980268757.html",
+   "published": "2026-10-01T05:22:36+09:00",
+   "extracted_at": "2026-10-01T06:08:26.818570+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "a300815893cb",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-09-30",
+   "trip_type": "午後便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 7,
+   "condition": "渋い状況",
+   "summary": "単発ヒットが多く、テクニカルな釣り。トップ7杯。",
+   "title": "３０日アオリイカ午後便",
+   "url": "https://www.taimaru.jp/fishingpost/107943/",
+   "published": "2026-09-30T21:10:52+09:00",
+   "extracted_at": "2026-10-01T06:08:35.094122+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "bd04a397efaa",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-30",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 3,
+   "condition": "水面バラシ・ミスバイト多発",
+   "summary": "サワラ好調。モーニングタイムでバタバタとヒット。",
+   "title": "３０日サワラ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/107932/",
+   "published": "2026-09-30T10:50:43+09:00",
+   "extracted_at": "2026-10-01T06:08:37.496644+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "3a47c96521c0",
+   "boat_id": "houryoumaru",
+   "boat_key": "houryoumaru",
+   "boat_name": "豊漁丸",
+   "area": "敦賀",
+   "trip_date": "2026-09-29",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 9,
+     "total": null,
+     "size_note": "型が良くなってきた"
+    }
+   ],
+   "top_count": 9,
+   "condition": "渋くなってきた",
+   "summary": "型が良くなり難しくなってきた。竿頭9杯",
+   "title": "2026/09/29",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2933.html",
+   "published": "2026-09-30T08:32:32+09:00",
+   "extracted_at": "2026-10-01T06:08:28.848606+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "8d0e1c717921",
    "boat_id": "kaiseimaru",
@@ -6338,7 +6455,8 @@
   "feacfa4d01d9",
   "506274675668",
   "059ae8eff99d",
-  "43c51e4d4587"
+  "43c51e4d4587",
+  "18006a1434ae"
  ],
  "boats": [
   {
@@ -6531,6 +6649,12 @@
    "boat": "泰丸",
    "title": "２９日マイカ半夜便",
    "url": "https://www.taimaru.jp/fishingpost/107924/"
+  },
+  {
+   "id": "18006a1434ae",
+   "boat": "泰丸",
+   "title": "３０日マイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/107961/"
   }
  ]
 }
