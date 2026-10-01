@@ -1,7 +1,86 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-01T06:08:40.609709+09:00",
+ "generated_at": "2026-10-02T06:08:11.683985+09:00",
  "catches": [
+  {
+   "id": "55b14e701149",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-01",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "手強い状況",
+   "summary": "ナイトティップランでアオリイカ竿頭5杯。厳しい釣況だった。",
+   "title": "10/1(木) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12980367189.html",
+   "published": "2026-10-02T06:03:25+09:00",
+   "extracted_at": "2026-10-02T06:08:04.803024+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "164e958e3378",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-10-01",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": "81.5cm、77cm"
+    },
+    {
+     "name": "ヒラメ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シイラ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 2,
+   "condition": "潮緩い。後半潮効く",
+   "summary": "青物ジギング。ブリ・メジロ・ヒラメ・シイラ等混獲。",
+   "title": "10/1青物何とか釣れてくれました☺",
+   "url": "https://dream-chaser.kyoto.jp/chouka/10-1%e9%9d%92%e7%89%a9%e4%bd%95%e3%81%a8%e3%81%8b%e9%87%a3%e3%82%8c%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e2%98%ba/",
+   "published": "2026-10-01T17:19:56+09:00",
+   "extracted_at": "2026-10-02T06:08:10.615826+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "adee385606ab",
    "boat_id": "kaiseimaru",
