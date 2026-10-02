@@ -1,7 +1,36 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T06:08:11.683985+09:00",
+ "generated_at": "2026-10-03T06:08:08.479602+09:00",
  "catches": [
+  {
+   "id": "78c524e50e04",
+   "boat_id": "houryoumaru",
+   "boat_key": "houryoumaru",
+   "boat_name": "豊漁丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-01",
+   "trip_type": null,
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 15,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 15,
+   "condition": null,
+   "summary": "アオリイカナイトティップラン。名古屋市の釣人が15杯GET。",
+   "title": "2026/10/01",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2934.html",
+   "published": "2026-10-02T09:33:36+09:00",
+   "extracted_at": "2026-10-03T06:08:02.093702+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "55b14e701149",
    "boat_id": "kaiseimaru",
@@ -6535,7 +6564,8 @@
   "506274675668",
   "059ae8eff99d",
   "43c51e4d4587",
-  "18006a1434ae"
+  "18006a1434ae",
+  "b576de3e279a"
  ],
  "boats": [
   {
@@ -6734,6 +6764,12 @@
    "boat": "泰丸",
    "title": "３０日マイカ半夜便",
    "url": "https://www.taimaru.jp/fishingpost/107961/"
+  },
+  {
+   "id": "b576de3e279a",
+   "boat": "泰丸",
+   "title": "２日アオリイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/107974/"
   }
  ]
 }
