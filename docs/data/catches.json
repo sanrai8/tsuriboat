@@ -1,7 +1,124 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T06:22:23.272327+09:00",
+ "generated_at": "2026-10-06T06:08:52.983068+09:00",
  "catches": [
+  {
+   "id": "560cdc41b812",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-05",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スルメイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "マイカを狙い、ポツリポツリとヒット。スルメも混じった。連発なし。",
+   "title": "10月5日(月)　マイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12980742068.html",
+   "published": "2026-10-06T00:39:08+09:00",
+   "extracted_at": "2026-10-06T06:08:38.646815+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "ea0a78644042",
+   "boat_id": "taikaimaru",
+   "boat_key": "taikaimaru",
+   "boat_name": "第八十八大海丸",
+   "area": "小浜",
+   "trip_date": "2026-10-05",
+   "trip_type": "昼便",
+   "methods": [],
+   "species": [
+    {
+     "name": "クエ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": "11kg"
+    }
+   ],
+   "top_count": 1,
+   "condition": null,
+   "summary": "クエ11kgを釣り上げた。初挑戦での成果。",
+   "title": "10/5",
+   "url": "https://www.taikai-web.com/88-report.html#20261005",
+   "published": "2026-10-05T12:00:00+09:00",
+   "extracted_at": "2026-10-06T06:08:52.982917+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "c50db00b9e81",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-10-05",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 9,
+     "total": 30,
+     "size_note": null
+    }
+   ],
+   "top_count": 9,
+   "condition": null,
+   "summary": "ひと流し目からヒット。連鎖多く、トップ9杯、船中30杯超え。",
+   "title": "５日アオリイカ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/108125/",
+   "published": "2026-10-05T11:43:05+09:00",
+   "extracted_at": "2026-10-06T06:08:48.124372+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "f20af7907046",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-04",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 12,
+     "total": null,
+     "size_note": "型のいいの混ざり"
+    }
+   ],
+   "top_count": 12,
+   "condition": "厳しい条件",
+   "summary": "アオリイカ中夜便。トップ12杯、次10、9、6、6杯。",
+   "title": "10/4(日) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12980659828.html",
+   "published": "2026-10-05T07:36:20+09:00",
+   "extracted_at": "2026-10-06T06:08:41.240913+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "662fb8fdd7dd",
    "boat_id": "taimaru",
@@ -6967,7 +7084,8 @@
   "1c93e30ac552",
   "ecd3d57850b1",
   "9a19a6005b59",
-  "5e6773b0aecc"
+  "5e6773b0aecc",
+  "0420f0c5e9a0"
  ],
  "boats": [
   {
@@ -7214,6 +7332,12 @@
    "boat": "泰丸",
    "title": "４日アオリイカ半夜便",
    "url": "https://www.taimaru.jp/fishingpost/108114/"
+  },
+  {
+   "id": "0420f0c5e9a0",
+   "boat": "豊漁丸",
+   "title": "2026/10/05",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2938.html"
   }
  ]
 }
