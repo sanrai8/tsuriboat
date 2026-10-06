@@ -1,7 +1,50 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T06:08:52.983068+09:00",
+ "generated_at": "2026-10-07T06:08:06.782916+09:00",
  "catches": [
+  {
+   "id": "639cfa67766c",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-05",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 13,
+     "total": null,
+     "size_note": "キロクラス出現"
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 13,
+   "condition": null,
+   "summary": "ナイトティップランでアオリイカトップ13杯。キロクラスも出現。",
+   "title": "10/5(月) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12980750541.html",
+   "published": "2026-10-06T06:19:08+09:00",
+   "extracted_at": "2026-10-07T06:07:58.757457+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "560cdc41b812",
    "boat_id": "chikuhoumaru",
