@@ -1,7 +1,79 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T06:08:06.782916+09:00",
+ "generated_at": "2026-10-08T06:08:19.262110+09:00",
  "catches": [
+  {
+   "id": "5370cd696125",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-07",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": 7,
+     "max": 13,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 13,
+   "condition": null,
+   "summary": "アオリイカ好調。竿頭13杯。ケンサキ2、コウイカ3も上がった。",
+   "title": "10/7(水) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12980941606.html",
+   "published": "2026-10-08T05:16:55+09:00",
+   "extracted_at": "2026-10-08T06:08:07.470483+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "34e60e629cb7",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_actions",
+   "boat_name": "泰丸 Action's",
+   "area": "敦賀",
+   "trip_date": "2026-10-07",
+   "trip_type": "半夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "シケあと、ややタフなコンディション",
+   "summary": "ワンポイントで粘り倒し、ポツポツ拾い釣り",
+   "title": "７日アオリイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/108161/",
+   "published": "2026-10-07T21:46:12+09:00",
+   "extracted_at": "2026-10-08T06:08:14.027943+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "639cfa67766c",
    "boat_id": "kaiseimaru",
