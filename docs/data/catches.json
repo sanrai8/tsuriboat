@@ -1,7 +1,116 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T21:32:11.087297+09:00",
+ "generated_at": "2026-10-13T06:07:28.899464+09:00",
  "catches": [
+  {
+   "id": "dbd8c47e3b96",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-12",
+   "trip_type": "半夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 7,
+   "condition": null,
+   "summary": "ナイトティップランでアオリイカトップ7杯の釣果",
+   "title": "10/12(月) アオリイカの半夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12981418955.html",
+   "published": "2026-10-13T02:04:39+09:00",
+   "extracted_at": "2026-10-13T06:07:24.294216+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "5f25eb2157cd",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-12",
+   "trip_type": "ナイト便",
+   "methods": [
+    "アオリ"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "難しい状況",
+   "summary": "難しい中、ポツポツと釣果。竿頭は佐古さん。",
+   "title": "１０月１２日(月)ナイトアオリ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12981416012.html",
+   "published": "2026-10-13T00:23:04+09:00",
+   "extracted_at": "2026-10-13T06:07:18.512043+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "b67e5453b08c",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-12",
+   "trip_type": null,
+   "methods": [
+    "バチコン",
+    "ライトジギング"
+   ],
+   "species": [
+    {
+     "name": "アジ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サバ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "脂のって丸々と太り"
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "アジ好調、サワラ・サバ好調",
+   "summary": "バチコン・ライトジギングでアジ・サワラ・サバが好調。マダイも上がり賑やかな釣況",
+   "title": "10月12日(月)　バチコン五目便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12981415192.html",
+   "published": "2026-10-12T23:58:59+09:00",
+   "extracted_at": "2026-10-13T06:07:21.772453+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "ba4ecbe49537",
    "boat_id": "dreamchaser",
