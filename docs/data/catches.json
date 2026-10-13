@@ -1,7 +1,98 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T06:07:28.899464+09:00",
+ "generated_at": "2026-10-14T06:07:22.514829+09:00",
  "catches": [
+  {
+   "id": "799a11a49b9e",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-13",
+   "trip_type": "ナイトアオリ便",
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 8,
+     "total": null,
+     "size_note": "サイズ良くなってきた"
+    }
+   ],
+   "top_count": 8,
+   "condition": null,
+   "summary": "竿頭8ハイ。サイズ良好。",
+   "title": "１０月１３日(火)ナイトアオリ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12981502265.html",
+   "published": "2026-10-13T22:39:25+09:00",
+   "extracted_at": "2026-10-14T06:07:08.986338+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "c759dcf7ed8d",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-10-13",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": "大メジロ"
+    },
+    {
+     "name": "真鯛",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヨコワ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シイラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ハガツオ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": "ナイスサイズ"
+    }
+   ],
+   "top_count": 2,
+   "condition": "深場ポイント探索。鳥山あるが不発",
+   "summary": "苦戦しながらもブリ2匹、メジロ、真鯛等ゲスト交え釣獲",
+   "title": "10/13鰤何とか釣れてくれました☺",
+   "url": "https://dream-chaser.kyoto.jp/chouka/10-13%e9%b0%a4%e4%bd%95%e3%81%a8%e3%81%8b%e9%87%a3%e3%82%8c%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e2%98%ba/",
+   "published": "2026-10-13T17:18:23+09:00",
+   "extracted_at": "2026-10-14T06:07:20.784209+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "dbd8c47e3b96",
    "boat_id": "kaiseimaru",
@@ -8408,7 +8499,9 @@
   "d486f320b2bc",
   "8c03be85c08d",
   "d07b73173085",
-  "1ac26da29f58"
+  "1ac26da29f58",
+  "db6a6743b58d",
+  "3cdb5d1aa93b"
  ],
  "boats": [
   {
@@ -8751,6 +8844,18 @@
    "boat": "竹宝丸",
    "title": "バチコン五目便",
    "url": "https://ameblo.jp/chikuhoumaru/entry-12981329343.html"
+  },
+  {
+   "id": "db6a6743b58d",
+   "boat": "豊漁丸",
+   "title": "2026/10/12",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2943.html"
+  },
+  {
+   "id": "3cdb5d1aa93b",
+   "boat": "泰丸",
+   "title": "１３日アオリイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/108401/"
   }
  ]
 }
