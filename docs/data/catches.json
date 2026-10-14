@@ -1,7 +1,50 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-14T06:07:22.514829+09:00",
+ "generated_at": "2026-10-15T06:08:15.077709+09:00",
  "catches": [
+  {
+   "id": "203249c322fa",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-13",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 7,
+   "condition": null,
+   "summary": "ナイトティップランでアオリイカ好調。竿頭7杯、他のメンバーも6杯以下で釣果。",
+   "title": "10/13(火) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12981520378.html",
+   "published": "2026-10-14T07:02:15+09:00",
+   "extracted_at": "2026-10-15T06:08:01.203757+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "799a11a49b9e",
    "boat_id": "kazumimaru",
@@ -8501,7 +8544,13 @@
   "d07b73173085",
   "1ac26da29f58",
   "db6a6743b58d",
-  "3cdb5d1aa93b"
+  "3cdb5d1aa93b",
+  "60131d6500e6",
+  "bc45d219356f",
+  "563034196872",
+  "445332afc83d",
+  "5f58278f5696",
+  "58d8a0b4d221"
  ],
  "boats": [
   {
@@ -8856,6 +8905,42 @@
    "boat": "泰丸",
    "title": "１３日アオリイカ半夜便",
    "url": "https://www.taimaru.jp/fishingpost/108401/"
+  },
+  {
+   "id": "60131d6500e6",
+   "boat": "雲丸",
+   "title": "カワハギゲーム開幕にむけて",
+   "url": "https://ameblo.jp/fcloud/entry-12981542447.html"
+  },
+  {
+   "id": "bc45d219356f",
+   "boat": "雲丸",
+   "title": "13日　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12981534525.html"
+  },
+  {
+   "id": "563034196872",
+   "boat": "雲丸",
+   "title": "12日　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12981534393.html"
+  },
+  {
+   "id": "445332afc83d",
+   "boat": "雲丸",
+   "title": "11日　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12981534258.html"
+  },
+  {
+   "id": "5f58278f5696",
+   "boat": "雲丸",
+   "title": "10日　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12981534094.html"
+  },
+  {
+   "id": "58d8a0b4d221",
+   "boat": "雲丸",
+   "title": "9日　ナイトティップラン",
+   "url": "https://ameblo.jp/fcloud/entry-12981533929.html"
   }
  ]
 }
