@@ -1,7 +1,65 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T06:08:15.077709+09:00",
+ "generated_at": "2026-10-16T06:08:29.712192+09:00",
  "catches": [
+  {
+   "id": "fcbfc89df2b5",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-15",
+   "trip_type": null,
+   "methods": [
+    "ライトジギング",
+    "バチコン五目"
+   ],
+   "species": [
+    {
+     "name": "サバ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "旨サバ"
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "いいサイズ"
+    },
+    {
+     "name": "アジ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "青物の活性が高い",
+   "summary": "ライトジギングで青物連発。サバ・サゴシ・サワラ・アジ・マダイの大漁",
+   "title": "10月15日(木)　バチコン五目便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12981693570.html",
+   "published": "2026-10-16T00:34:28+09:00",
+   "extracted_at": "2026-10-16T06:08:19.938482+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "203249c322fa",
    "boat_id": "kaiseimaru",
