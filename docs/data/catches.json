@@ -1,7 +1,55 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T06:08:01.318652+09:00",
+ "generated_at": "2026-10-21T06:08:26.778893+09:00",
  "catches": [
+  {
+   "id": "d8fcf41670f5",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-20",
+   "trip_type": "午前便",
+   "methods": [],
+   "species": [
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 4,
+     "total": null,
+     "size_note": "トロサワラ"
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "根魚",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 4,
+   "condition": "朝イチからヒット、連鎖なし",
+   "summary": "トロサワラ狙いで朝便。単発ヒットが多く、サワラ4尾の釣果。",
+   "title": "２０日サワラ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/108602/",
+   "published": "2026-10-20T12:47:37+09:00",
+   "extracted_at": "2026-10-21T06:08:22.608080+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "186962239019",
    "boat_id": "kaiseimaru",
@@ -9577,7 +9625,10 @@
   "d37a770a6a17",
   "a9512785da3f",
   "6331890cf5ce",
-  "a067a140703c"
+  "a067a140703c",
+  "50b40364306e",
+  "d72750d6afaa",
+  "35ec0d369535"
  ],
  "boats": [
   {
@@ -9675,24 +9726,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "b03bf9e2dbee",
-   "boat": "一美丸",
-   "title": "９月２５日(金)ナイトアオリ便",
-   "url": "https://ameblo.jp/kazumimaru20151010/entry-12979775336.html"
-  },
-  {
-   "id": "43deca571f21",
-   "boat": "泰丸",
-   "title": "26日半夜便マイカ&アオリイカ",
-   "url": "https://www.taimaru.jp/fishingpost/107810/"
-  },
-  {
-   "id": "176a00451ea6",
-   "boat": "泰丸",
-   "title": "２６日マイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/107799/"
-  },
   {
    "id": "feacfa4d01d9",
    "boat": "雲丸",
@@ -9974,6 +10007,24 @@
    "boat": "豊漁丸",
    "title": "2026/10/17",
    "url": "http://houryoumaru.blog.fc2.com/blog-entry-2945.html"
+  },
+  {
+   "id": "50b40364306e",
+   "boat": "海生丸",
+   "title": "ジギング募集‼︎",
+   "url": "https://ameblo.jp/kaisei2266/entry-12982114818.html"
+  },
+  {
+   "id": "d72750d6afaa",
+   "boat": "雲丸",
+   "title": "10/21 バチコン五目　出船します",
+   "url": "https://ameblo.jp/fcloud/entry-12982128214.html"
+  },
+  {
+   "id": "35ec0d369535",
+   "boat": "雲丸",
+   "title": "ナイトティップラン　10/19",
+   "url": "https://ameblo.jp/fcloud/entry-12982100249.html"
   }
  ]
 }
