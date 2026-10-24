@@ -1,7 +1,329 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-24T06:08:06.417335+09:00",
+ "generated_at": "2026-10-25T06:07:46.101131+09:00",
  "catches": [
+  {
+   "id": "833c8d811fb2",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": "深夜便",
+   "methods": [
+    "タイラバ",
+    "アジング"
+   ],
+   "species": [
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 4,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 4,
+   "condition": null,
+   "summary": "サワラ4匹ゲット。アジ・マダイは型見えず",
+   "title": "24日深夜便タイラバ&アジング、青物",
+   "url": "https://www.taimaru.jp/fishingpost/108739/",
+   "published": "2026-10-25T04:26:17+09:00",
+   "extracted_at": "2026-10-25T06:07:28.584567+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "c75a367262c2",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": null,
+   "methods": [
+    "タルイカジギング"
+   ],
+   "species": [
+    {
+     "name": "スルメイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "初戦はスルメのみ。タルイカこれからのシーズン開幕。",
+   "title": "１０月２４日(土)タルイカ便。初戦",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12982585704.html",
+   "published": "2026-10-25T01:34:26+09:00",
+   "extracted_at": "2026-10-25T06:07:08.767487+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "427bc81a1db2",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": "午後便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "最大820g"
+    }
+   ],
+   "top_count": null,
+   "condition": "強風で流れが強かった",
+   "summary": "強風の中、ウェイト調整で対応。最大820gのアオリイカ。",
+   "title": "２４日アオリイカ午後便",
+   "url": "https://www.taimaru.jp/fishingpost/108716/",
+   "published": "2026-10-24T19:49:04+09:00",
+   "extracted_at": "2026-10-25T06:07:33.699899+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "b13ebeda852f",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-10-24",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "キメジ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シイラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ガシラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 2,
+   "condition": "逆潮、青物活性は低め",
+   "summary": "スマガツオ、キメジ、シイラ等多彩に釣れた。メジロダブルHit成功",
+   "title": "10/24青物何とか釣れてくれました🐟",
+   "url": "https://dream-chaser.kyoto.jp/chouka/10-24%e9%9d%92%e7%89%a9%e4%bd%95%e3%81%a8%e3%81%8b%e9%87%a3%e3%82%8c%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%f0%9f%90%9f/",
+   "published": "2026-10-24T16:30:21+09:00",
+   "extracted_at": "2026-10-25T06:07:44.449620+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "39077d692390",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": null,
+   "methods": [
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "レンコダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ハタ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 2,
+   "condition": "風弱く緩い流れ",
+   "summary": "本命マダイ連発後ポツポツ。レンコダイ・ハタも交える",
+   "title": "10月24日(土)　タイラバ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12982524145.html",
+   "published": "2026-10-24T12:44:41+09:00",
+   "extracted_at": "2026-10-25T06:07:16.880159+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "4527fce1e822",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": null,
+   "methods": [
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "反応良好も食い渋り",
+   "summary": "秋のマダイ攻略。反応バリバリだが食い渋った。",
+   "title": "１０月２４日(土)タイラバ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12982521991.html",
+   "published": "2026-10-24T12:20:22+09:00",
+   "extracted_at": "2026-10-25T06:07:11.254409+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "943af2a0267e",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-24",
+   "trip_type": "午前便",
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 6,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "根魚",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 6,
+   "condition": "前半凪、後半流れ入る。バラシ多数",
+   "summary": "サワラ10ヒット中6本キャッチ。食い浅くバラシ多発",
+   "title": "２４日ジギング午前便",
+   "url": "https://www.taimaru.jp/fishingpost/108703/",
+   "published": "2026-10-24T12:08:23+09:00",
+   "extracted_at": "2026-10-25T06:07:37.642058+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "179c96cba23e",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-10-23",
+   "trip_type": null,
+   "methods": [
+    "バチコン"
+   ],
+   "species": [
+    {
+     "name": "イサキ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": 20,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 20,
+   "condition": null,
+   "summary": "10目以上達成。イサキ・マダイ・ヒラマサ等が釣れた厳しい釣果",
+   "title": "バチコン五目　10/23",
+   "url": "https://ameblo.jp/fcloud/entry-12982518692.html",
+   "published": "2026-10-24T11:52:10+09:00",
+   "extracted_at": "2026-10-25T06:07:24.979398+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "732443065dca",
    "boat_id": "taimaru",
@@ -9832,7 +10154,12 @@
   "5d0c5c107e57",
   "cc7138539953",
   "d9c337abceb1",
-  "2ebf310703c0"
+  "2ebf310703c0",
+  "7c6e5b26ae01",
+  "4220c8f05066",
+  "76172adc9dde",
+  "8dde03df16b2",
+  "c563874ec7f9"
  ],
  "boats": [
   {
@@ -9930,36 +10257,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "b576de3e279a",
-   "boat": "泰丸",
-   "title": "２日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/107974/"
-  },
-  {
-   "id": "a1bd0a50ae7d",
-   "boat": "竹宝丸",
-   "title": "10月3日(土)　マイカ便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12980549121.html"
-  },
-  {
-   "id": "3b786a6f966c",
-   "boat": "海生丸",
-   "title": "10/3(土) 湾内アジ調査初日",
-   "url": "https://ameblo.jp/kaisei2266/entry-12980494127.html"
-  },
-  {
-   "id": "37296becfa11",
-   "boat": "泰丸",
-   "title": "3日深夜便アオリイカ",
-   "url": "https://www.taimaru.jp/fishingpost/108032/"
-  },
-  {
-   "id": "1c93e30ac552",
-   "boat": "竹宝丸",
-   "title": "10月4日(日)　マイカ便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12980646811.html"
-  },
   {
    "id": "ecd3d57850b1",
    "boat": "海生丸",
@@ -10229,6 +10526,36 @@
    "boat": "泰丸",
    "title": "２３日アオリイカ午前便",
    "url": "https://www.taimaru.jp/fishingpost/108642/"
+  },
+  {
+   "id": "7c6e5b26ae01",
+   "boat": "竹宝丸",
+   "title": "10月24日(土)　アオリイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12982583138.html"
+  },
+  {
+   "id": "4220c8f05066",
+   "boat": "海生丸",
+   "title": "10/24(土) 湾内アジ調査最終回操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12982498535.html"
+  },
+  {
+   "id": "76172adc9dde",
+   "boat": "雲丸",
+   "title": "日本海カワハギ開幕に向けて",
+   "url": "https://ameblo.jp/fcloud/entry-12982525498.html"
+  },
+  {
+   "id": "8dde03df16b2",
+   "boat": "泰丸",
+   "title": "２４日アオリイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/108730/"
+  },
+  {
+   "id": "c563874ec7f9",
+   "boat": "泰丸",
+   "title": "２４日タイラバ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/108694/"
   }
  ]
 }
