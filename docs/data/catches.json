@@ -1,7 +1,71 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T06:07:00.762511+09:00",
+ "generated_at": "2026-10-28T06:05:40.262898+09:00",
  "catches": [
+  {
+   "id": "440c3ddc211b",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-27",
+   "trip_type": "日中便",
+   "methods": [
+    "オモリグ"
+   ],
+   "species": [
+    {
+     "name": "カワハギ",
+     "min": null,
+     "max": 28,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ウマヅラハギ",
+     "min": null,
+     "max": 6,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サンバソウ",
+     "min": null,
+     "max": 10,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "チダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サバフグ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 28,
+   "condition": "中盤〜終盤で型良好、ボリュームあり",
+   "summary": "カワハギ初回操業。トップ28枚。中盤以降型良し",
+   "title": "10/27(火) カワハギ調査初回操業",
+   "url": "https://ameblo.jp/kaisei2266/entry-12982869488.html",
+   "published": "2026-10-27T19:36:49+09:00",
+   "extracted_at": "2026-10-28T06:05:30.056379+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "542744d36cb8",
    "boat_id": "chikuhoumaru",
@@ -10334,7 +10398,10 @@
   "c563874ec7f9",
   "4e5baede4074",
   "b842f417b6d4",
-  "0ac5c747a1f1"
+  "0ac5c747a1f1",
+  "2459292700af",
+  "47fa8f8b6c71",
+  "971dfb4816af"
  ],
  "boats": [
   {
@@ -10432,24 +10499,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "0420f0c5e9a0",
-   "boat": "豊漁丸",
-   "title": "2026/10/05",
-   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2938.html"
-  },
-  {
-   "id": "1889bda351f4",
-   "boat": "竹宝丸",
-   "title": "10月8日(木)　マイカ便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12981037306.html"
-  },
-  {
-   "id": "2533aa0556bc",
-   "boat": "雲丸",
-   "title": "秋は魚が元気です！",
-   "url": "https://ameblo.jp/fcloud/entry-12980961879.html"
-  },
   {
    "id": "4610510d5b5d",
    "boat": "泰丸",
@@ -10731,6 +10780,24 @@
    "boat": "雲丸",
    "title": "カワハギ調査中",
    "url": "https://ameblo.jp/fcloud/entry-12982727302.html"
+  },
+  {
+   "id": "2459292700af",
+   "boat": "海生丸",
+   "title": "10/27(火) カワハギ調査の操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12982820437.html"
+  },
+  {
+   "id": "47fa8f8b6c71",
+   "boat": "雲丸",
+   "title": "出船予定です",
+   "url": "https://ameblo.jp/fcloud/entry-12982837313.html"
+  },
+  {
+   "id": "971dfb4816af",
+   "boat": "雲丸",
+   "title": "ナイトティップラン、まだまだ出船します！応援お待ちしてます。",
+   "url": "https://ameblo.jp/fcloud/entry-12982818406.html"
   }
  ]
 }
