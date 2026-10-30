@@ -1,7 +1,122 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T06:06:14.815772+09:00",
+ "generated_at": "2026-10-31T06:04:30.065876+09:00",
  "catches": [
+  {
+   "id": "b61bee54e9b9",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-30",
+   "trip_type": "半夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 22,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 7,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 22,
+   "condition": null,
+   "summary": "アオリイカ竿頭22杯。久々の20オーバー。ケンサキ7杯も混入。",
+   "title": "10/30(金) アオリイカの半夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983149347.html",
+   "published": "2026-10-31T03:26:16+09:00",
+   "extracted_at": "2026-10-31T06:04:19.475362+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "f06deebae3cf",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_main",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-10-30",
+   "trip_type": "半夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "ドテラ流し・アンカリング",
+   "summary": "ナイトティップランでアオリイカ攻略。トップ5はい2名様。",
+   "title": "３０日アオリイカ半夜便",
+   "url": "https://www.taimaru.jp/fishingpost/108777/",
+   "published": "2026-10-30T21:33:39+09:00",
+   "extracted_at": "2026-10-31T06:04:26.914381+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "c0e19b907221",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-29",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": 9,
+     "max": 15,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 6,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 15,
+   "condition": "活性良好。僚船も復活の夜",
+   "summary": "アオリイカ好調。竿頭15杯。ケンサキ6杯も上がった",
+   "title": "10/29(木) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983065147.html",
+   "published": "2026-10-30T07:07:08+09:00",
+   "extracted_at": "2026-10-31T06:04:22.270055+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "58b1d417e022",
    "boat_id": "chikuhoumaru",
