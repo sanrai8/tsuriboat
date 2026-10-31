@@ -1,7 +1,107 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-31T06:04:30.065876+09:00",
+ "generated_at": "2026-11-01T06:04:45.217714+09:00",
  "catches": [
+  {
+   "id": "4f378f32c76f",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-31",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 9,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 9,
+   "condition": "バタつく中",
+   "summary": "アオリイカティップランでトップ9杯。ケンサキも交じった。",
+   "title": "10/31(土) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983246292.html",
+   "published": "2026-11-01T05:39:49+09:00",
+   "extracted_at": "2026-11-01T06:04:38.167151+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "903a15ca802f",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-10-31",
+   "trip_type": "午前便",
+   "methods": [
+    "オモリグ"
+   ],
+   "species": [
+    {
+     "name": "カワハギ",
+     "min": null,
+     "max": 32,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ウマヅラハギ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サンバソウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ガシラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 32,
+   "condition": null,
+   "summary": "カワハギ開幕戦。トップ32枚。次12、10、10枚と続く。",
+   "title": "10/31(土) カワハギ便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983191877.html",
+   "published": "2026-10-31T15:24:24+09:00",
+   "extracted_at": "2026-11-01T06:04:41.381474+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "b61bee54e9b9",
    "boat_id": "kaiseimaru",
