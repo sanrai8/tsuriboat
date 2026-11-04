@@ -1,7 +1,43 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T06:05:40.302965+09:00",
+ "generated_at": "2026-11-05T06:05:07.112715+09:00",
  "catches": [
+  {
+   "id": "072159e06625",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-04",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "真鯛の横取りあり。渋い状況",
+   "summary": "アオリトップ5杯。厳しい中、皆さん頑張った",
+   "title": "11/4(水) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983624582.html",
+   "published": "2026-11-05T03:05:01+09:00",
+   "extracted_at": "2026-11-05T06:04:57.937738+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "44c76077da79",
    "boat_id": "kaiseimaru",
@@ -11518,7 +11554,10 @@
   "c1151e117169",
   "4fa0595405de",
   "1bdc4c97b070",
-  "271647d67faa"
+  "271647d67faa",
+  "be84c558f439",
+  "00d0b8d50a01",
+  "59752b53883d"
  ],
  "boats": [
   {
@@ -11616,24 +11655,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "847ed0c70c75",
-   "boat": "海生丸",
-   "title": "10/10(土) 湾内アジ調査便の操業中",
-   "url": "https://ameblo.jp/kaisei2266/entry-12981153026.html"
-  },
-  {
-   "id": "53a50cbd6b49",
-   "boat": "泰丸",
-   "title": "１０日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108256/"
-  },
-  {
-   "id": "8d485f732698",
-   "boat": "一美丸",
-   "title": "１０月１１日(日)ナイトアオリ便",
-   "url": "https://ameblo.jp/kazumimaru20151010/entry-12981313397.html"
-  },
   {
    "id": "2a5f2463646d",
    "boat": "豊漁丸",
@@ -11915,6 +11936,24 @@
    "boat": "海生丸",
    "title": "11/3(火) 湾内アジ便",
    "url": "https://ameblo.jp/kaisei2266/entry-12983472439.html"
+  },
+  {
+   "id": "be84c558f439",
+   "boat": "竹宝丸",
+   "title": "11月4日(水)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12983621694.html"
+  },
+  {
+   "id": "00d0b8d50a01",
+   "boat": "海生丸",
+   "title": "11/4(水) カワハギ便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983577703.html"
+  },
+  {
+   "id": "59752b53883d",
+   "boat": "泰丸",
+   "title": "天秤フカセ便募集中❗️",
+   "url": "https://www.taimaru.jp/fishingpost/108847/"
   }
  ]
 }
