@@ -1,7 +1,121 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T06:05:07.112715+09:00",
+ "generated_at": "2026-11-06T06:05:31.468627+09:00",
  "catches": [
+  {
+   "id": "057523272a22",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-05",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 10,
+     "total": null,
+     "size_note": "良型混ざり"
+    }
+   ],
+   "top_count": 5,
+   "condition": "風が強まり早帰り",
+   "summary": "アオリトップ5杯。ケンサキ10杯。風で終了早めた。",
+   "title": "11/5(木) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983717594.html",
+   "published": "2026-11-06T04:43:52+09:00",
+   "extracted_at": "2026-11-06T06:05:14.142890+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "1d417b1f21fe",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-05",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "11kgオーバーキャッチあり"
+    }
+   ],
+   "top_count": null,
+   "condition": null,
+   "summary": "タルイカ好調。連続ヒットで11kgオーバーもキャッチ",
+   "title": "11月5日(木)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12983713881.html",
+   "published": "2026-11-06T01:14:43+09:00",
+   "extracted_at": "2026-11-06T06:05:10.948445+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "4cb4ff0db66c",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_second",
+   "boat_name": "泰丸 Second",
+   "area": "敦賀",
+   "trip_date": "2026-11-05",
+   "trip_type": "午前便",
+   "methods": [
+    "ジギング",
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "ヒラメ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "カンパチ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "根魚",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "チビ"
+    }
+   ],
+   "top_count": null,
+   "condition": "反応あるも活性低い",
+   "summary": "遠征で各地点確認も厳しい釣況",
+   "title": "５日ジギング＆タイラバ午前便",
+   "url": "https://www.taimaru.jp/fishingpost/108862/",
+   "published": "2026-11-05T18:28:07+09:00",
+   "extracted_at": "2026-11-06T06:05:26.718330+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "072159e06625",
    "boat_id": "kaiseimaru",
@@ -11557,7 +11671,12 @@
   "271647d67faa",
   "be84c558f439",
   "00d0b8d50a01",
-  "59752b53883d"
+  "59752b53883d",
+  "6f8c4cacc396",
+  "dbc52d9ae337",
+  "75fc55e86f2e",
+  "474b02ef37c8",
+  "7a370b74fb8f"
  ],
  "boats": [
   {
@@ -11655,36 +11774,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "2a5f2463646d",
-   "boat": "豊漁丸",
-   "title": "2026/10/11",
-   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2941.html"
-  },
-  {
-   "id": "d486f320b2bc",
-   "boat": "泰丸",
-   "title": "１１日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108333/"
-  },
-  {
-   "id": "8c03be85c08d",
-   "boat": "泰丸",
-   "title": "１１日アオリイカ午前便",
-   "url": "https://www.taimaru.jp/fishingpost/108270/"
-  },
-  {
-   "id": "d07b73173085",
-   "boat": "一美丸",
-   "title": "１０月１２日(月)タイラバ便",
-   "url": "https://ameblo.jp/kazumimaru20151010/entry-12981353747.html"
-  },
-  {
-   "id": "1ac26da29f58",
-   "boat": "竹宝丸",
-   "title": "バチコン五目便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12981329343.html"
-  },
   {
    "id": "db6a6743b58d",
    "boat": "豊漁丸",
@@ -11954,6 +12043,36 @@
    "boat": "泰丸",
    "title": "天秤フカセ便募集中❗️",
    "url": "https://www.taimaru.jp/fishingpost/108847/"
+  },
+  {
+   "id": "6f8c4cacc396",
+   "boat": "一美丸",
+   "title": "１１月５日(木)ナイトアオリ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12983708359.html"
+  },
+  {
+   "id": "dbc52d9ae337",
+   "boat": "雲丸",
+   "title": "明日11/6の出船連絡について",
+   "url": "https://ameblo.jp/fcloud/entry-12983688507.html"
+  },
+  {
+   "id": "75fc55e86f2e",
+   "boat": "雲丸",
+   "title": "カワハギ便　アングラーズ守山店長参戦",
+   "url": "https://ameblo.jp/fcloud/entry-12983656739.html"
+  },
+  {
+   "id": "474b02ef37c8",
+   "boat": "雲丸",
+   "title": "カワハギ調査便　お付き合いありがとうございました",
+   "url": "https://ameblo.jp/fcloud/entry-12983643088.html"
+  },
+  {
+   "id": "7a370b74fb8f",
+   "boat": "雲丸",
+   "title": "バチコン五目",
+   "url": "https://ameblo.jp/fcloud/entry-12983634654.html"
   }
  ]
 }
