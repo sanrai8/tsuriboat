@@ -1,7 +1,58 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T06:04:13.756449+09:00",
+ "generated_at": "2026-11-08T06:04:51.191683+09:00",
  "catches": [
+  {
+   "id": "a211f4473c6a",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-07",
+   "trip_type": "午前便",
+   "methods": [
+    "サビキ釣り",
+    "バチコン"
+   ],
+   "species": [
+    {
+     "name": "アジ",
+     "min": null,
+     "max": 100,
+     "total": null,
+     "size_note": "小型。南蛮漬け・天ぷら・唐揚げ向け"
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "チャリコ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アイゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 100,
+   "condition": "湾内ベタ凪。沖は大シケ。水深10～15m",
+   "summary": "湾内アジ便。お一人様100匹/hペース。小型だが数釣り楽しめた",
+   "title": "11/7(土) 湾内アジ便の操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983828419.html",
+   "published": "2026-11-07T10:24:40+09:00",
+   "extracted_at": "2026-11-08T06:04:45.519309+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "057523272a22",
    "boat_id": "kaiseimaru",
@@ -11676,7 +11727,8 @@
   "dbc52d9ae337",
   "75fc55e86f2e",
   "474b02ef37c8",
-  "7a370b74fb8f"
+  "7a370b74fb8f",
+  "ac02c6b7dac9"
  ],
  "boats": [
   {
@@ -11774,12 +11826,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "db6a6743b58d",
-   "boat": "豊漁丸",
-   "title": "2026/10/12",
-   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2943.html"
-  },
   {
    "id": "3cdb5d1aa93b",
    "boat": "泰丸",
@@ -12073,6 +12119,12 @@
    "boat": "雲丸",
    "title": "バチコン五目",
    "url": "https://ameblo.jp/fcloud/entry-12983634654.html"
+  },
+  {
+   "id": "ac02c6b7dac9",
+   "boat": "海生丸",
+   "title": "11/7(土) 湾内アジ便の釣果",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983843276.html"
   }
  ]
 }
