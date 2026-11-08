@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T06:04:51.191683+09:00",
+ "generated_at": "2026-11-09T06:04:55.952853+09:00",
  "catches": [
   {
    "id": "a211f4473c6a",
@@ -11728,7 +11728,12 @@
   "75fc55e86f2e",
   "474b02ef37c8",
   "7a370b74fb8f",
-  "ac02c6b7dac9"
+  "ac02c6b7dac9",
+  "21586c49a063",
+  "a1649c5c2410",
+  "2dfd145ced74",
+  "0988e6b54e1e",
+  "93a761415acf"
  ],
  "boats": [
   {
@@ -11826,36 +11831,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "3cdb5d1aa93b",
-   "boat": "泰丸",
-   "title": "１３日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108401/"
-  },
-  {
-   "id": "60131d6500e6",
-   "boat": "雲丸",
-   "title": "カワハギゲーム開幕にむけて",
-   "url": "https://ameblo.jp/fcloud/entry-12981542447.html"
-  },
-  {
-   "id": "bc45d219356f",
-   "boat": "雲丸",
-   "title": "13日　ナイトティップラン",
-   "url": "https://ameblo.jp/fcloud/entry-12981534525.html"
-  },
-  {
-   "id": "563034196872",
-   "boat": "雲丸",
-   "title": "12日　ナイトティップラン",
-   "url": "https://ameblo.jp/fcloud/entry-12981534393.html"
-  },
-  {
-   "id": "445332afc83d",
-   "boat": "雲丸",
-   "title": "11日　ナイトティップラン",
-   "url": "https://ameblo.jp/fcloud/entry-12981534258.html"
-  },
   {
    "id": "5f58278f5696",
    "boat": "雲丸",
@@ -12125,6 +12100,36 @@
    "boat": "海生丸",
    "title": "11/7(土) 湾内アジ便の釣果",
    "url": "https://ameblo.jp/kaisei2266/entry-12983843276.html"
+  },
+  {
+   "id": "21586c49a063",
+   "boat": "海生丸",
+   "title": "11/8(日) 湾内アジサビキの釣果",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983937635.html"
+  },
+  {
+   "id": "a1649c5c2410",
+   "boat": "海生丸",
+   "title": "11/8(日) 湾内アジサビキの操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983904539.html"
+  },
+  {
+   "id": "2dfd145ced74",
+   "boat": "雲丸",
+   "title": "湾内サビキ＆バチコン便　2026/11/08",
+   "url": "https://ameblo.jp/fcloud/entry-12983959046.html"
+  },
+  {
+   "id": "0988e6b54e1e",
+   "boat": "雲丸",
+   "title": "久々の湾内バチコン半夜便　2026/11/07",
+   "url": "https://ameblo.jp/fcloud/entry-12983953590.html"
+  },
+  {
+   "id": "93a761415acf",
+   "boat": "雲丸",
+   "title": "出船予定",
+   "url": "https://ameblo.jp/fcloud/entry-12983946628.html"
   }
  ]
 }
