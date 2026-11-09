@@ -1,7 +1,137 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T06:04:55.952853+09:00",
+ "generated_at": "2026-11-10T06:05:36.221603+09:00",
  "catches": [
+  {
+   "id": "a6dfe1afbff8",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-11-09",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 11,
+     "total": 11,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": 4,
+     "total": 4,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 7,
+     "total": 7,
+     "size_note": null
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": 7,
+     "total": 7,
+     "size_note": null
+    },
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": 3,
+     "total": 3,
+     "size_note": null
+    },
+    {
+     "name": "真鯛",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 11,
+   "condition": "逆潮",
+   "summary": "青物好調。1流し目から連発。メジロ11本、ヒラマサ4本など",
+   "title": "11/9青物好調です☺",
+   "url": "https://dream-chaser.kyoto.jp/chouka/11-9%e9%9d%92%e7%89%a9%e5%a5%bd%e8%aa%bf%e3%81%a7%e3%81%99%e2%98%ba/",
+   "published": "2026-11-09T16:21:29+09:00",
+   "extracted_at": "2026-11-10T06:05:34.022367+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "fcae3cb44269",
+   "boat_id": "taimaru",
+   "boat_key": "taimaru_main",
+   "boat_name": "泰丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-09",
+   "trip_type": null,
+   "methods": [
+    "ジギング",
+    "タイラバ"
+   ],
+   "species": [
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": 4,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "根魚",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "少々"
+    }
+   ],
+   "top_count": 4,
+   "condition": "潮なし、風なし",
+   "summary": "マダイ4匹、根魚少々。青物不発。",
+   "title": "９日ジギング＆タイラバ便",
+   "url": "https://www.taimaru.jp/fishingpost/108931/",
+   "published": "2026-11-09T13:37:49+09:00",
+   "extracted_at": "2026-11-10T06:05:28.935101+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "87a544842ead",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-08",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 8,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 8,
+   "condition": "3日ぶりの沖操業。厳しい状況",
+   "summary": "アオリイカティップランでトップ8杯。厳しい中皆さん頑張った",
+   "title": "11/8(日) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12983995225.html",
+   "published": "2026-11-09T06:12:12+09:00",
+   "extracted_at": "2026-11-10T06:05:21.026690+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "a211f4473c6a",
    "boat_id": "kaiseimaru",
@@ -11733,7 +11863,9 @@
   "a1649c5c2410",
   "2dfd145ced74",
   "0988e6b54e1e",
-  "93a761415acf"
+  "93a761415acf",
+  "1288b7b3bb21",
+  "0fa234ad6636"
  ],
  "boats": [
   {
@@ -11831,18 +11963,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "5f58278f5696",
-   "boat": "雲丸",
-   "title": "10日　ナイトティップラン",
-   "url": "https://ameblo.jp/fcloud/entry-12981534094.html"
-  },
-  {
-   "id": "58d8a0b4d221",
-   "boat": "雲丸",
-   "title": "9日　ナイトティップラン",
-   "url": "https://ameblo.jp/fcloud/entry-12981533929.html"
-  },
   {
    "id": "977f4fd9f8aa",
    "boat": "海生丸",
@@ -12130,6 +12250,18 @@
    "boat": "雲丸",
    "title": "出船予定",
    "url": "https://ameblo.jp/fcloud/entry-12983946628.html"
+  },
+  {
+   "id": "1288b7b3bb21",
+   "boat": "雲丸",
+   "title": "ナイトティップラン　まだまだ出船します",
+   "url": "https://ameblo.jp/fcloud/entry-12984028664.html"
+  },
+  {
+   "id": "0fa234ad6636",
+   "boat": "雲丸",
+   "title": "ナイトティップラン　出船します",
+   "url": "https://ameblo.jp/fcloud/entry-12984019328.html"
   }
  ]
 }
