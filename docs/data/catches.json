@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T06:05:36.221603+09:00",
+ "generated_at": "2026-11-11T06:05:18.852254+09:00",
  "catches": [
   {
    "id": "a6dfe1afbff8",
@@ -11865,7 +11865,9 @@
   "0988e6b54e1e",
   "93a761415acf",
   "1288b7b3bb21",
-  "0fa234ad6636"
+  "0fa234ad6636",
+  "b225d80d1e15",
+  "95205f79f6af"
  ],
  "boats": [
   {
@@ -11963,18 +11965,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "977f4fd9f8aa",
-   "boat": "海生丸",
-   "title": "カワハギ調査便の案内！",
-   "url": "https://ameblo.jp/kaisei2266/entry-12981750865.html"
-  },
-  {
-   "id": "075093d4add3",
-   "boat": "一美丸",
-   "title": "１０月１７日(土)ナイトアオリ便",
-   "url": "https://ameblo.jp/kazumimaru20151010/entry-12981873608.html"
-  },
   {
    "id": "960b3ed98cad",
    "boat": "竹宝丸",
@@ -12262,6 +12252,18 @@
    "boat": "雲丸",
    "title": "ナイトティップラン　出船します",
    "url": "https://ameblo.jp/fcloud/entry-12984019328.html"
+  },
+  {
+   "id": "b225d80d1e15",
+   "boat": "海生丸",
+   "title": "11/10(火) 湾内アジサビキの釣果",
+   "url": "https://ameblo.jp/kaisei2266/entry-12984117777.html"
+  },
+  {
+   "id": "95205f79f6af",
+   "boat": "海生丸",
+   "title": "11/10(火) 湾内アジサビキの操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12984101364.html"
   }
  ]
 }
