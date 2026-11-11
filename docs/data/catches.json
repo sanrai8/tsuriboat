@@ -1,7 +1,126 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-11T06:05:18.852254+09:00",
+ "generated_at": "2026-11-12T06:12:13.869017+09:00",
  "catches": [
+  {
+   "id": "4c31e5a36321",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-11",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": "小ぶり"
+    }
+   ],
+   "top_count": 2,
+   "condition": null,
+   "summary": "タルイカ小ぶりサイズ2杯キャッチ。サイズ以上の喜び。",
+   "title": "11月11日(水)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12984257060.html",
+   "published": "2026-11-12T01:06:59+09:00",
+   "extracted_at": "2026-11-12T06:12:06.060798+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "6dbf66e7a444",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-11-11",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シイラ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "オニカサゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ウッカリカサゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "潮0.2ノット、ベイトウルメイワシ豊富",
+   "summary": "青物好調。ダブルHitあり、多彩な魚種が釣れました",
+   "title": "11/11青物まずまずです☺",
+   "url": "https://dream-chaser.kyoto.jp/chouka/11-11%e9%9d%92%e7%89%a9%e3%81%be%e3%81%9a%e3%81%be%e3%81%9a%e3%81%a7%e3%81%99%e2%98%ba/",
+   "published": "2026-11-11T16:12:53+09:00",
+   "extracted_at": "2026-11-12T06:12:12.184923+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "a6dfe1afbff8",
    "boat_id": "dreamchaser",
@@ -11867,7 +11986,8 @@
   "1288b7b3bb21",
   "0fa234ad6636",
   "b225d80d1e15",
-  "95205f79f6af"
+  "95205f79f6af",
+  "ebeed5f6b82d"
  ],
  "boats": [
   {
@@ -11965,12 +12085,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "960b3ed98cad",
-   "boat": "竹宝丸",
-   "title": "10月17日(土)　アオリイカ便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12981880156.html"
-  },
   {
    "id": "c29db9f336ff",
    "boat": "海生丸",
@@ -12264,6 +12378,12 @@
    "boat": "海生丸",
    "title": "11/10(火) 湾内アジサビキの操業中",
    "url": "https://ameblo.jp/kaisei2266/entry-12984101364.html"
+  },
+  {
+   "id": "ebeed5f6b82d",
+   "boat": "一美丸",
+   "title": "１１月１１日(水)タルイカ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12984251555.html"
   }
  ]
 }
