@@ -1,7 +1,92 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-12T06:12:13.869017+09:00",
+ "generated_at": "2026-11-13T06:05:34.478109+09:00",
  "catches": [
+  {
+   "id": "b9439ab97a8f",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-11-12",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": "最大12.05kg"
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "シイラ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ホウボウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 5,
+   "condition": "潮良好、ベイト豊富",
+   "summary": "12.05kg巨鰤筆頭にジギング好調。ブリ5本、多種混交",
+   "title": "11/12　12.05KGの巨鰤きました☺",
+   "url": "https://dream-chaser.kyoto.jp/chouka/11-12%e3%80%8012-05kg%e3%81%ae%e5%b7%a8%e9%b0%a4%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f%e2%98%ba/",
+   "published": "2026-11-12T16:48:41+09:00",
+   "extracted_at": "2026-11-13T06:05:33.075626+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "4c31e5a36321",
    "boat_id": "chikuhoumaru",
@@ -11987,7 +12072,10 @@
   "0fa234ad6636",
   "b225d80d1e15",
   "95205f79f6af",
-  "ebeed5f6b82d"
+  "ebeed5f6b82d",
+  "d7bd0709c005",
+  "ceb8b90384a9",
+  "0e006064e4fa"
  ],
  "boats": [
   {
@@ -12085,24 +12173,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "c29db9f336ff",
-   "boat": "海生丸",
-   "title": "10/17(土) 湾内アジの調査中",
-   "url": "https://ameblo.jp/kaisei2266/entry-12981804671.html"
-  },
-  {
-   "id": "b238d3e41b99",
-   "boat": "雲丸",
-   "title": "10/19〜26日　出船予定",
-   "url": "https://ameblo.jp/fcloud/entry-12981872977.html"
-  },
-  {
-   "id": "7f551278aef8",
-   "boat": "泰丸",
-   "title": "１７日アオリイカ深夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108549/"
-  },
   {
    "id": "d37a770a6a17",
    "boat": "海生丸",
@@ -12384,6 +12454,24 @@
    "boat": "一美丸",
    "title": "１１月１１日(水)タルイカ便",
    "url": "https://ameblo.jp/kazumimaru20151010/entry-12984251555.html"
+  },
+  {
+   "id": "d7bd0709c005",
+   "boat": "一美丸",
+   "title": "１１月１２日(木)タルイカ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12984339251.html"
+  },
+  {
+   "id": "ceb8b90384a9",
+   "boat": "雲丸",
+   "title": "出船予定",
+   "url": "https://ameblo.jp/fcloud/entry-12984273378.html"
+  },
+  {
+   "id": "0e006064e4fa",
+   "boat": "雲丸",
+   "title": "湾内サビキ＆バチコン便　2026/11/07",
+   "url": "https://ameblo.jp/fcloud/entry-12984273499.html"
   }
  ]
 }
