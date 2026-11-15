@@ -1,7 +1,190 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-15T06:05:05.218368+09:00",
+ "generated_at": "2026-11-16T06:05:08.426957+09:00",
  "catches": [
+  {
+   "id": "3cbc8193f56b",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-11-15",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 4,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サゴシ",
+     "min": null,
+     "max": 16,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": 2,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ヒラメ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アコウ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アカハタ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ウッカリカサゴ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "レンコダイ",
+     "min": null,
+     "max": 5,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "オニカサゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "サバ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "エソ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 16,
+   "condition": "逆潮。青物感度バリバリの箇所あるが反応少なし",
+   "summary": "青物・根魚混在。サゴシ好調。ヒラマサ、サワラも上がる",
+   "title": "11/15今日も刃物DAYでした🐟",
+   "url": "https://dream-chaser.kyoto.jp/chouka/11-15%e4%bb%8a%e6%97%a5%e3%82%82%e5%88%83%e7%89%a9day%e3%81%a7%e3%81%97%e3%81%9f%f0%9f%90%9f/",
+   "published": "2026-11-15T17:06:27+09:00",
+   "extracted_at": "2026-11-16T06:05:06.987523+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "d3bea7a275cb",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-14",
+   "trip_type": "半夜・中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 8,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": 3,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 8,
+   "condition": "厳しい状況",
+   "summary": "アオリ半夜7杯・中夜8杯トップ。ケンサキ3杯",
+   "title": "11/14(土) アオリイカの半夜＆中夜",
+   "url": "https://ameblo.jp/kaisei2266/entry-12984546194.html",
+   "published": "2026-11-15T09:56:32+09:00",
+   "extracted_at": "2026-11-16T06:04:57.804088+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "af6fa4097b59",
+   "boat_id": "houryoumaru",
+   "boat_key": "houryoumaru",
+   "boat_name": "豊漁丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-14",
+   "trip_type": "深夜便",
+   "methods": [],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": "型が良い"
+    },
+    {
+     "name": "マアジ",
+     "min": null,
+     "max": 9,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "スルメイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 9,
+   "condition": null,
+   "summary": "アオリイカ好調、型良好。真鯵反応良し、竿頭9本。",
+   "title": "2026/11/14",
+   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2949.html",
+   "published": "2026-11-15T07:11:28+09:00",
+   "extracted_at": "2026-11-16T06:05:00.771696+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "3a4fc33b915d",
    "boat_id": "dreamchaser",
@@ -12380,7 +12563,8 @@
   "46cf616c6388",
   "b53dd3738302",
   "e2b12fe95b9a",
-  "dd406c7a5d1e"
+  "dd406c7a5d1e",
+  "db3049abf82f"
  ],
  "boats": [
   {
@@ -12478,12 +12662,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "2e8884516984",
-   "boat": "雲丸",
-   "title": "穏やかな海でした。",
-   "url": "https://ameblo.jp/fcloud/entry-12982188787.html"
-  },
   {
    "id": "5d0c5c107e57",
    "boat": "雲丸",
@@ -12777,6 +12955,12 @@
    "boat": "海生丸",
    "title": "11/14(土) 湾内アジサビキの釣果",
    "url": "https://ameblo.jp/kaisei2266/entry-12984462738.html"
+  },
+  {
+   "id": "db3049abf82f",
+   "boat": "一美丸",
+   "title": "１１月１５日(日)タイラバ便。最近にしては♪",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12984560064.html"
   }
  ]
 }
