@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T06:05:08.426957+09:00",
+ "generated_at": "2026-11-17T06:05:31.638623+09:00",
  "catches": [
   {
    "id": "3cbc8193f56b",
@@ -106,6 +106,42 @@
    "url": "https://dream-chaser.kyoto.jp/chouka/11-15%e4%bb%8a%e6%97%a5%e3%82%82%e5%88%83%e7%89%a9day%e3%81%a7%e3%81%97%e3%81%9f%f0%9f%90%9f/",
    "published": "2026-11-15T17:06:27+09:00",
    "extracted_at": "2026-11-16T06:05:06.987523+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "033895cce786",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-11-14",
+   "trip_type": null,
+   "methods": [
+    "バチコン"
+   ],
+   "species": [
+    {
+     "name": "イサキ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "真鯛",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "絶好の行楽日和",
+   "summary": "バチコン五目。イサキ、真鯛等で釣果。ヒラマサはラインブレイク。",
+   "title": "14日　バチコン五目",
+   "url": "https://ameblo.jp/fcloud/entry-12984646825.html",
+   "published": "2026-11-16T10:48:20+09:00",
+   "extracted_at": "2026-11-17T06:05:23.709011+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
@@ -311,6 +347,33 @@
    "url": "https://ameblo.jp/chikuhoumaru/entry-12984465212.html",
    "published": "2026-11-14T12:14:49+09:00",
    "extracted_at": "2026-11-15T06:04:53.281171+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "27d5e8151040",
+   "boat_id": "kumomaru",
+   "boat_key": "kumomaru",
+   "boat_name": "雲丸",
+   "area": "小浜（おおい）",
+   "trip_date": "2026-11-13",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "カワハギ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "凪倒れ。絶好の行楽日和",
+   "summary": "良い群れに当たらず、型は出たが数伸びず。厳しい釣況",
+   "title": "13日　カワハギ便",
+   "url": "https://ameblo.jp/fcloud/entry-12984642757.html",
+   "published": "2026-11-16T09:52:32+09:00",
+   "extracted_at": "2026-11-17T06:05:25.233812+09:00",
    "model": "claude-haiku-4-5-20251001"
   },
   {
@@ -12564,7 +12627,8 @@
   "b53dd3738302",
   "e2b12fe95b9a",
   "dd406c7a5d1e",
-  "db3049abf82f"
+  "db3049abf82f",
+  "86f66644d65d"
  ],
  "boats": [
   {
@@ -12662,12 +12726,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "5d0c5c107e57",
-   "boat": "雲丸",
-   "title": "スリル満点のライトなビックファイト！？　10/21",
-   "url": "https://ameblo.jp/fcloud/entry-12982298552.html"
-  },
   {
    "id": "cc7138539953",
    "boat": "一美丸",
@@ -12961,6 +13019,12 @@
    "boat": "一美丸",
    "title": "１１月１５日(日)タイラバ便。最近にしては♪",
    "url": "https://ameblo.jp/kazumimaru20151010/entry-12984560064.html"
+  },
+  {
+   "id": "86f66644d65d",
+   "boat": "雲丸",
+   "title": "12日　ナイトティップラン＆抱かせてナイト",
+   "url": "https://ameblo.jp/fcloud/entry-12984634163.html"
   }
  ]
 }
