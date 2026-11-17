@@ -1,7 +1,41 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T06:05:31.638623+09:00",
+ "generated_at": "2026-11-18T06:05:27.373318+09:00",
  "catches": [
+  {
+   "id": "e10808c0bf7a",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-17",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": null,
+   "condition": "タルイカは開始早々にヒット。アオリイカ高活性。",
+   "summary": "タルイカ好調。アオリイカよく釣れた。マイカはもう少し欲しかった。",
+   "title": "１１月１７日(火)ﾏｲｶ&ﾀﾙｲｶ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12984808822.html",
+   "published": "2026-11-18T00:10:24+09:00",
+   "extracted_at": "2026-11-18T06:05:17.793062+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "3cbc8193f56b",
    "boat_id": "dreamchaser",
@@ -12628,7 +12662,9 @@
   "e2b12fe95b9a",
   "dd406c7a5d1e",
   "db3049abf82f",
-  "86f66644d65d"
+  "86f66644d65d",
+  "ee6bd151557f",
+  "3762c380b9eb"
  ],
  "boats": [
   {
@@ -12726,18 +12762,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "cc7138539953",
-   "boat": "一美丸",
-   "title": "１０月１８日(日)タイラバ便",
-   "url": "https://ameblo.jp/kazumimaru20151010/entry-12982396548.html"
-  },
-  {
-   "id": "d9c337abceb1",
-   "boat": "泰丸",
-   "title": "２３日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108679/"
-  },
   {
    "id": "2ebf310703c0",
    "boat": "泰丸",
@@ -13025,6 +13049,18 @@
    "boat": "雲丸",
    "title": "12日　ナイトティップラン＆抱かせてナイト",
    "url": "https://ameblo.jp/fcloud/entry-12984634163.html"
+  },
+  {
+   "id": "ee6bd151557f",
+   "boat": "竹宝丸",
+   "title": "11月17日(火)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12984810905.html"
+  },
+  {
+   "id": "3762c380b9eb",
+   "boat": "雲丸",
+   "title": "カワハギ好調",
+   "url": "https://ameblo.jp/fcloud/entry-12984779108.html"
   }
  ]
 }
