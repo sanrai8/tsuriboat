@@ -1,7 +1,43 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T06:05:27.373318+09:00",
+ "generated_at": "2026-11-19T06:05:27.594949+09:00",
  "catches": [
+  {
+   "id": "787c7829d5c9",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-17",
+   "trip_type": "中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 8,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "コウイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 8,
+   "condition": "潮速めでポイント移動",
+   "summary": "アオリイカトップ8杯。潮速めで辛抱の釣り",
+   "title": "11/17(火) アオリイカの中夜便",
+   "url": "https://ameblo.jp/kaisei2266/entry-12984818717.html",
+   "published": "2026-11-18T06:31:43+09:00",
+   "extracted_at": "2026-11-19T06:05:23.263446+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "e10808c0bf7a",
    "boat_id": "kazumimaru",
