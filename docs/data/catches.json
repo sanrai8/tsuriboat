@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T06:05:27.594949+09:00",
+ "generated_at": "2026-11-20T06:05:34.261436+09:00",
  "catches": [
   {
    "id": "787c7829d5c9",
@@ -12700,7 +12700,8 @@
   "db3049abf82f",
   "86f66644d65d",
   "ee6bd151557f",
-  "3762c380b9eb"
+  "3762c380b9eb",
+  "f95abfaeaf33"
  ],
  "boats": [
   {
@@ -12798,12 +12799,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "2ebf310703c0",
-   "boat": "泰丸",
-   "title": "２３日アオリイカ午前便",
-   "url": "https://www.taimaru.jp/fishingpost/108642/"
-  },
   {
    "id": "7c6e5b26ae01",
    "boat": "竹宝丸",
@@ -13097,6 +13092,12 @@
    "boat": "雲丸",
    "title": "カワハギ好調",
    "url": "https://ameblo.jp/fcloud/entry-12984779108.html"
+  },
+  {
+   "id": "f95abfaeaf33",
+   "boat": "雲丸",
+   "title": "11/21〜29日　出船予定",
+   "url": "https://ameblo.jp/fcloud/entry-12984979169.html"
   }
  ]
 }
