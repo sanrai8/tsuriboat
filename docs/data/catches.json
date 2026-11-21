@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T06:05:19.271413+09:00",
+ "generated_at": "2026-11-22T06:04:51.301926+09:00",
  "catches": [
   {
    "id": "787c7829d5c9",
@@ -12701,7 +12701,9 @@
   "86f66644d65d",
   "ee6bd151557f",
   "3762c380b9eb",
-  "f95abfaeaf33"
+  "f95abfaeaf33",
+  "9ba5ce9430bd",
+  "40127e555b67"
  ],
  "boats": [
   {
@@ -12799,18 +12801,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "7c6e5b26ae01",
-   "boat": "竹宝丸",
-   "title": "10月24日(土)　アオリイカ便",
-   "url": "https://ameblo.jp/chikuhoumaru/entry-12982583138.html"
-  },
-  {
-   "id": "4220c8f05066",
-   "boat": "海生丸",
-   "title": "10/24(土) 湾内アジ調査最終回操業中",
-   "url": "https://ameblo.jp/kaisei2266/entry-12982498535.html"
-  },
   {
    "id": "76172adc9dde",
    "boat": "雲丸",
@@ -13098,6 +13088,18 @@
    "boat": "雲丸",
    "title": "11/21〜29日　出船予定",
    "url": "https://ameblo.jp/fcloud/entry-12984979169.html"
+  },
+  {
+   "id": "9ba5ce9430bd",
+   "boat": "海生丸",
+   "title": "11/21(土) 湾内アジサビキ釣果",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985194070.html"
+  },
+  {
+   "id": "40127e555b67",
+   "boat": "海生丸",
+   "title": "11/21(土) 湾内アジサビキ操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985159835.html"
   }
  ]
 }
