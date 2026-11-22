@@ -1,7 +1,63 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T06:04:51.301926+09:00",
+ "generated_at": "2026-11-23T06:05:11.952444+09:00",
  "catches": [
+  {
+   "id": "06ac15ac2ffc",
+   "boat_id": "kaiseimaru",
+   "boat_key": "kaiseimaru",
+   "boat_name": "海生丸",
+   "area": "小浜",
+   "trip_date": "2026-11-22",
+   "trip_type": "半夜便＆中夜便",
+   "methods": [
+    "ティップラン"
+   ],
+   "species": [
+    {
+     "name": "アオリイカ",
+     "min": null,
+     "max": 6,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 6,
+   "condition": "厳しい釣況",
+   "summary": "5日ぶりの出船。アオリイカ竿頭6杯。皆さん最後まで頑張った。",
+   "title": "11/22(日) アオリイカ半夜＆中夜",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985356465.html",
+   "published": "2026-11-23T04:38:04+09:00",
+   "extracted_at": "2026-11-23T06:05:02.618276+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "9eb1cce6c17a",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-22",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 1,
+   "condition": "寒冷、アラレ混じりで過酷",
+   "summary": "タルイカ2ヒット1キャッチ。足1本の危険な状況も何とかキャッチ",
+   "title": "11月22日(日)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12985352799.html",
+   "published": "2026-11-23T01:15:53+09:00",
+   "extracted_at": "2026-11-23T06:05:00.217970+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "787c7829d5c9",
    "boat_id": "kaiseimaru",
@@ -12703,7 +12759,10 @@
   "3762c380b9eb",
   "f95abfaeaf33",
   "9ba5ce9430bd",
-  "40127e555b67"
+  "40127e555b67",
+  "6f4e917ec10f",
+  "0d0bb6941667",
+  "1eb794d8c5d0"
  ],
  "boats": [
   {
@@ -12801,24 +12860,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "76172adc9dde",
-   "boat": "雲丸",
-   "title": "日本海カワハギ開幕に向けて",
-   "url": "https://ameblo.jp/fcloud/entry-12982525498.html"
-  },
-  {
-   "id": "8dde03df16b2",
-   "boat": "泰丸",
-   "title": "２４日アオリイカ半夜便",
-   "url": "https://www.taimaru.jp/fishingpost/108730/"
-  },
-  {
-   "id": "c563874ec7f9",
-   "boat": "泰丸",
-   "title": "２４日タイラバ午前便",
-   "url": "https://www.taimaru.jp/fishingpost/108694/"
-  },
   {
    "id": "4e5baede4074",
    "boat": "一美丸",
@@ -13100,6 +13141,24 @@
    "boat": "海生丸",
    "title": "11/21(土) 湾内アジサビキ操業中",
    "url": "https://ameblo.jp/kaisei2266/entry-12985159835.html"
+  },
+  {
+   "id": "6f4e917ec10f",
+   "boat": "一美丸",
+   "title": "１１月２２日(日)タルイカ便",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12985348163.html"
+  },
+  {
+   "id": "0d0bb6941667",
+   "boat": "海生丸",
+   "title": "11/22(日) 湾内アジサビキ釣果",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985289725.html"
+  },
+  {
+   "id": "1eb794d8c5d0",
+   "boat": "海生丸",
+   "title": "11/22(日) 湾内アジサビキの操業中",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985263294.html"
   }
  ]
 }
