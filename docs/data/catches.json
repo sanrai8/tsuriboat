@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T06:05:23.439746+09:00",
+ "generated_at": "2026-11-25T06:05:25.789828+09:00",
  "catches": [
   {
    "id": "55d3fe5cd2c6",
@@ -12953,7 +12953,8 @@
   "6f4e917ec10f",
   "0d0bb6941667",
   "1eb794d8c5d0",
-  "85ebf78ebcbf"
+  "85ebf78ebcbf",
+  "f0463c689a91"
  ],
  "boats": [
   {
@@ -13051,12 +13052,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "b842f417b6d4",
-   "boat": "豊漁丸",
-   "title": "2026/10/25",
-   "url": "http://houryoumaru.blog.fc2.com/blog-entry-2947.html"
-  },
   {
    "id": "0ac5c747a1f1",
    "boat": "雲丸",
@@ -13350,6 +13345,12 @@
    "boat": "海生丸",
    "title": "11/23(月) 日本海カワハギ操業中",
    "url": "https://ameblo.jp/kaisei2266/entry-12985386384.html"
+  },
+  {
+   "id": "f0463c689a91",
+   "boat": "海生丸",
+   "title": "11/24(火) 湾内アジサビキ",
+   "url": "https://ameblo.jp/kaisei2266/entry-12985498807.html"
   }
  ]
 }
