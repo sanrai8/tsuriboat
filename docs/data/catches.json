@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-25T06:05:25.789828+09:00",
+ "generated_at": "2026-11-26T06:05:48.469346+09:00",
  "catches": [
   {
    "id": "55d3fe5cd2c6",
@@ -12954,7 +12954,8 @@
   "0d0bb6941667",
   "1eb794d8c5d0",
   "85ebf78ebcbf",
-  "f0463c689a91"
+  "f0463c689a91",
+  "c4b04310058a"
  ],
  "boats": [
   {
@@ -13052,12 +13053,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "0ac5c747a1f1",
-   "boat": "雲丸",
-   "title": "カワハギ調査中",
-   "url": "https://ameblo.jp/fcloud/entry-12982727302.html"
-  },
   {
    "id": "2459292700af",
    "boat": "海生丸",
@@ -13351,6 +13346,12 @@
    "boat": "海生丸",
    "title": "11/24(火) 湾内アジサビキ",
    "url": "https://ameblo.jp/kaisei2266/entry-12985498807.html"
+  },
+  {
+   "id": "c4b04310058a",
+   "boat": "雲丸",
+   "title": "11/26〜12/3  出船予定",
+   "url": "https://ameblo.jp/fcloud/entry-12985580375.html"
   }
  ]
 }
