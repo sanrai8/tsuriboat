@@ -1,7 +1,155 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T06:05:48.469346+09:00",
+ "generated_at": "2026-11-27T06:05:32.950081+09:00",
  "catches": [
+  {
+   "id": "9fc654285697",
+   "boat_id": "chikuhoumaru",
+   "boat_key": "chikuhoumaru",
+   "boat_name": "竹宝丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-26",
+   "trip_type": null,
+   "methods": [],
+   "species": [
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": "10キロオーバー"
+    }
+   ],
+   "top_count": 1,
+   "condition": "活性が高い。水面への浮き上げも見られた",
+   "summary": "タルイカ10kg超えをキャッチ。活性良好で期待度高い",
+   "title": "11月26日(木)　タルイカ便",
+   "url": "https://ameblo.jp/chikuhoumaru/entry-12985754410.html",
+   "published": "2026-11-27T00:23:13+09:00",
+   "extracted_at": "2026-11-27T06:05:21.110611+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "7b63bd189f9b",
+   "boat_id": "kazumimaru",
+   "boat_key": "kazumimaru",
+   "boat_name": "一美丸",
+   "area": "敦賀",
+   "trip_date": "2026-11-26",
+   "trip_type": null,
+   "methods": [
+    "イカメタル"
+   ],
+   "species": [
+    {
+     "name": "タルイカ",
+     "min": null,
+     "max": 1,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ケンサキイカ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 1,
+   "condition": "水温低下。水深110m、ヒットレンジ25m",
+   "summary": "タルイカ獲得。上層を探ることが重要だった。",
+   "title": "１１月２６日(木)ﾏｲｶ&ﾀﾙｲｶ便。タルイカget♪",
+   "url": "https://ameblo.jp/kazumimaru20151010/entry-12985750753.html",
+   "published": "2026-11-26T23:20:32+09:00",
+   "extracted_at": "2026-11-27T06:05:18.900802+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
+  {
+   "id": "721211d191a3",
+   "boat_id": "dreamchaser",
+   "boat_key": "dreamchaser",
+   "boat_name": "ドリームチェイサー",
+   "area": "京都",
+   "trip_date": "2026-11-26",
+   "trip_type": null,
+   "methods": [
+    "ジギング"
+   ],
+   "species": [
+    {
+     "name": "ブリ",
+     "min": null,
+     "max": 3,
+     "total": 3,
+     "size_note": null
+    },
+    {
+     "name": "メジロ",
+     "min": null,
+     "max": 4,
+     "total": 4,
+     "size_note": null
+    },
+    {
+     "name": "ヒラマサ",
+     "min": null,
+     "max": 2,
+     "total": 2,
+     "size_note": null
+    },
+    {
+     "name": "ハマチ",
+     "min": null,
+     "max": 4,
+     "total": 4,
+     "size_note": null
+    },
+    {
+     "name": "サワラ",
+     "min": null,
+     "max": 2,
+     "total": 2,
+     "size_note": null
+    },
+    {
+     "name": "スマガツオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ハガツオ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "マダイ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    },
+    {
+     "name": "ウッカリカサゴ",
+     "min": null,
+     "max": null,
+     "total": null,
+     "size_note": null
+    }
+   ],
+   "top_count": 4,
+   "condition": "潮0.1ノット超ピンポイント",
+   "summary": "ブリ、メジロ、ヒラマサ、ハマチほか青物多彩に釣れました",
+   "title": "11/26鰤、メジロ、ヒラマサ、ハマチと色々来てくれました🐟",
+   "url": "https://dream-chaser.kyoto.jp/chouka/11-26%e9%b0%a4%e3%80%81%e3%83%a1%e3%82%b8%e3%83%ad%e3%80%81%e3%83%92%e3%83%a9%e3%83%9e%e3%82%b5%e3%80%81%e3%83%8f%e3%83%9e%e3%83%81%e3%81%a8%e8%89%b2%e3%80%85%e6%9d%a5%e3%81%a6%e3%81%8f%e3%82%8c/",
+   "published": "2026-11-26T16:29:14+09:00",
+   "extracted_at": "2026-11-27T06:05:31.279838+09:00",
+   "model": "claude-haiku-4-5-20251001"
+  },
   {
    "id": "55d3fe5cd2c6",
    "boat_id": "kaiseimaru",
@@ -12955,7 +13103,9 @@
   "1eb794d8c5d0",
   "85ebf78ebcbf",
   "f0463c689a91",
-  "c4b04310058a"
+  "c4b04310058a",
+  "d12c6c3fa3b1",
+  "e76a2a61f3ee"
  ],
  "boats": [
   {
@@ -13053,18 +13203,6 @@
   }
  ],
  "skipped": [
-  {
-   "id": "2459292700af",
-   "boat": "海生丸",
-   "title": "10/27(火) カワハギ調査の操業中",
-   "url": "https://ameblo.jp/kaisei2266/entry-12982820437.html"
-  },
-  {
-   "id": "47fa8f8b6c71",
-   "boat": "雲丸",
-   "title": "出船予定です",
-   "url": "https://ameblo.jp/fcloud/entry-12982837313.html"
-  },
   {
    "id": "971dfb4816af",
    "boat": "雲丸",
@@ -13352,6 +13490,18 @@
    "boat": "雲丸",
    "title": "11/26〜12/3  出船予定",
    "url": "https://ameblo.jp/fcloud/entry-12985580375.html"
+  },
+  {
+   "id": "d12c6c3fa3b1",
+   "boat": "雲丸",
+   "title": "出船予定",
+   "url": "https://ameblo.jp/fcloud/entry-12985705445.html"
+  },
+  {
+   "id": "e76a2a61f3ee",
+   "boat": "雲丸",
+   "title": "11/21〜23日　湾内サビキ＆バチコン",
+   "url": "https://ameblo.jp/fcloud/entry-12985673226.html"
   }
  ]
 }
